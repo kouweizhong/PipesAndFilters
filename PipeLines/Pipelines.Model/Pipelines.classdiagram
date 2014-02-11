@@ -1,0 +1,1971 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="bdef5073-f4d8-4ea0-ba93-21378b1b8197" name="Pipelines" linkedPackageId="707b7c68-981e-4971-b721-89023e9ed6ed" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="2419f7fb-743b-47f5-9d52-ad8dcea8308e">
+      <profileInstance Id="d69eed79-b22e-4434-ad45-0b1678317366" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="08cdee31-623b-473d-a548-5b7b0acda174">
+      <profileInstance Id="a34ae131-e853-4181-81ba-0ae332ba4cff" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="0f28755c-4436-4617-a41a-a7b8f7a3b432" name="Pipelines" visibility="Private">
+        <referencesInternal>
+          <reference Id="682daec0-724a-4d2b-ab94-89e4cca0fb69" handle="viewcode://./CodeSchema_Namespace?Namespace%3DPipelines" tag="ViewCode">
+            <elementDefinition Id="519ea3ee-e92f-4e0a-8183-79edb623c3c4" />
+          </reference>
+        </referencesInternal>
+        <elementDefinition Id="c695ffb2-5f64-47ab-a434-0008d6c4cb38" />
+        <profileInstances>
+          <packageHasProfileInstances Id="4a4d3244-4eb3-4742-aa4c-f7c4211977e6">
+            <profileInstance Id="d8700fae-2193-4aab-9e38-d53b2fd25bdc" name="CSharpProfile">
+              <elementDefinition Id="9e47326c-fb96-4169-a8a9-bd20eec840ef" />
+            </profileInstance>
+            <elementDefinition Id="a54faa8b-5adb-40b0-87ed-35255b622c68" />
+          </packageHasProfileInstances>
+        </profileInstances>
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="8efe0666-083f-430f-8f8a-5f6eb6b60cac" name="Filter" isAbstract="true" isLeaf="false" isActiveClass="false">
+              <referencesInternal>
+                <reference Id="e332e7a7-2874-4c64-87a9-0570c67cffa6" handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DFilter" tag="ViewCode">
+                  <elementDefinition Id="575c8384-36af-4a45-9221-40a07e996239" />
+                </reference>
+              </referencesInternal>
+              <appliedStereotypesInternal>
+                <stereotypeInstance Id="3b5c13e3-f76b-46cb-a426-1a9702e1bcac" name="class" profile="CSharpProfile">
+                  <elementDefinition Id="c97dc115-2b07-4454-8fe4-4cc1b2013957" />
+                  <propertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="28a5b962-3047-4fec-a0bb-8c28d17c5ab0">
+                      <propertyInstance Id="c30112ad-84aa-47b2-8dff-d6ba401c1223" name="ClrAttributes">
+                        <elementDefinition Id="95f3602b-3c4d-4185-9c82-acbe21118a7c" />
+                      </propertyInstance>
+                      <elementDefinition Id="c5b5a437-6b72-490f-8ba4-f769fe168c89" />
+                    </stereotypeInstanceHasPropertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="72f076a0-868b-41f7-8c49-5050e8a4a787">
+                      <propertyInstance Id="bab50d2f-2f34-4e98-8677-9389700a5e7d" name="IsPartial" value="false">
+                        <elementDefinition Id="428771da-bd58-425b-8d7d-fa542c3d937c" />
+                      </propertyInstance>
+                      <elementDefinition Id="7705dcb4-d143-48c9-8fd1-e4bbc35d9812" />
+                    </stereotypeInstanceHasPropertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="9709c27d-6d05-4b85-8e0c-54c068992314">
+                      <propertyInstance Id="26a62a0f-70e0-4dd8-b255-3f36bc149e52" name="IsStatic" value="False">
+                        <elementDefinition Id="7cb0f0e4-c653-46b9-ab5d-b36284f3ffe4" />
+                      </propertyInstance>
+                      <elementDefinition Id="1a1506e1-e22d-416b-ad55-676fa7a840dc" />
+                    </stereotypeInstanceHasPropertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="8771e655-3e93-410b-b2b8-34c41cc9a616">
+                      <propertyInstance Id="2338c477-c3ca-40d2-a693-cd4965fb8292" name="IsUnsafe" value="false">
+                        <elementDefinition Id="a448a135-c925-4785-ab18-62015ac98783" />
+                      </propertyInstance>
+                      <elementDefinition Id="d7c4f2f0-068c-4090-8191-1d18cb1dfca4" />
+                    </stereotypeInstanceHasPropertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="4adbe13a-bfe0-4661-a375-21582b1a66b7">
+                      <propertyInstance Id="07b07fcc-3578-4d5e-8720-82a7f080a76c" name="PackageVisibility" value="internal">
+                        <elementDefinition Id="adb14562-c3b5-4b5f-bf05-60593f1ac8b2" />
+                      </propertyInstance>
+                      <elementDefinition Id="7184971a-0cfb-48c9-9c3c-a329836c73fe" />
+                    </stereotypeInstanceHasPropertyInstances>
+                  </propertyInstances>
+                </stereotypeInstance>
+              </appliedStereotypesInternal>
+              <elementDefinition Id="0bc610fc-b803-4ac1-bf8b-0e2b9e2df182" />
+              <suppliersInternal>
+                <interfaceRealization Id="980a5e19-e60a-47b8-8280-4aad5bb70250">
+                  <interfaceMoniker Id="61e6cc03-205b-4ba4-bfc5-7e5b1ce1bce2" LastKnownName="IFilter" />
+                  <elementDefinition Id="1aae0bcb-3fa6-4466-b771-d3191bbb3617" />
+                </interfaceRealization>
+              </suppliersInternal>
+              <ownedOperationsInternal>
+                <operation Id="21a1f367-92e4-4605-befe-00a762fd8888" name="Run" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+                  <referencesInternal>
+                    <reference Id="b33eecde-d183-4dc2-83f5-591a2c3c213d" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DFilter Member%3D(Name%3DRun OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Concurrent Type%3D(Name%3DBlockingCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)]))])" tag="ViewCode">
+                      <elementDefinition Id="cbf5d3ad-563b-462f-850a-4a9dc9dace9d" />
+                    </reference>
+                  </referencesInternal>
+                  <appliedStereotypesInternal>
+                    <stereotypeInstance Id="6e3314b4-57a7-45f2-9dfe-ea807b94e25f" name="method" profile="CSharpProfile">
+                      <elementDefinition Id="c36e937c-7c36-4cd3-855b-55018e1ecc8a" />
+                      <propertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="b55d5fea-f6fc-40d6-94cf-0c4a231a4fe6">
+                          <propertyInstance Id="3b4a4416-5032-4c83-8bb5-1f1b499c06c8" name="ClrAttributes">
+                            <elementDefinition Id="75fe0aeb-d5d5-4ebc-ac17-beb25ebb84e6" />
+                          </propertyInstance>
+                          <elementDefinition Id="877255db-f97b-43fd-8bf2-6610b2391852" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="136c8451-a24d-401f-8f61-80193407052d">
+                          <propertyInstance Id="ecd88a0d-bb44-4b7f-90db-48d0388b8afd" name="IsPartial" value="false">
+                            <elementDefinition Id="fd25a877-b9ff-4c5a-9590-99b1e6dc06b0" />
+                          </propertyInstance>
+                          <elementDefinition Id="16770017-dd4e-4270-87e7-2c65a094267d" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="d5fc87ac-6cee-4dfc-9182-d9fecf080956">
+                          <propertyInstance Id="a9ea309b-580d-4cfd-885e-f9e3162edcd6" name="IsUnsafe" value="false">
+                            <elementDefinition Id="b394c14b-8f82-4e27-946d-5a813d1aa6f4" />
+                          </propertyInstance>
+                          <elementDefinition Id="c6c4d329-c881-426e-b7d0-0bafcde3f9eb" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="6406cb13-b696-4325-b04a-379c60e94ae2">
+                          <propertyInstance Id="e3d3c55a-7f2a-41ca-9c55-ed4089e3712f" name="Inheritance" value="none">
+                            <elementDefinition Id="90312b92-2e98-449f-9dbf-753ff48e76b9" />
+                          </propertyInstance>
+                          <elementDefinition Id="517d23e0-e807-412b-a5c8-edc80ba0b315" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="190eb809-d891-4351-8e55-c46f835abe61">
+                          <propertyInstance Id="bda21c2d-bc52-48cf-a9d5-dbf6e36bd336" name="PackageVisibility" value="internal">
+                            <elementDefinition Id="8b99142b-3eef-48c4-92e1-b7555ee219ba" />
+                          </propertyInstance>
+                          <elementDefinition Id="f2563ec8-6045-4a45-98a2-fa5ca2d6dd4a" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="7fccc0d0-4ba6-4660-9d26-680f58c22e01">
+                          <propertyInstance Id="098f25c0-aff8-40aa-89ca-5441926b74a6" name="params" value="false">
+                            <elementDefinition Id="68645ec5-59cb-48df-a284-b3e920c741d9" />
+                          </propertyInstance>
+                          <elementDefinition Id="ec527787-1b7c-4ea8-8e11-c2aecae10d01" />
+                        </stereotypeInstanceHasPropertyInstances>
+                      </propertyInstances>
+                    </stereotypeInstance>
+                  </appliedStereotypesInternal>
+                  <elementDefinition Id="7336cd57-3845-49d0-9b8d-3f8eaa878211" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="793ad507-642d-401b-93ed-8333fefa1e57" name="input" direction="In">
+                        <referencesInternal>
+                          <reference Id="1d230b22-fd01-48ea-9802-2d1108854448" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DFilter Member%3D(Name%3DRun OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Concurrent Type%3D(Name%3DBlockingCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)]))]) ParameterIdentifier%3Dinput" tag="ViewCode">
+                            <elementDefinition Id="1e931926-aeab-4814-a086-682f77550209" />
+                          </reference>
+                        </referencesInternal>
+                        <elementDefinition Id="1a212a2e-0dda-44c7-b9fb-ecaa5f5361f5" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="fdcd5a45-9e4d-4078-8b6a-3d6d33217878" LastKnownName="IFilterInput" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="50964d8c-0e45-4343-9126-bb33fe14e944" name="output" direction="In">
+                        <referencesInternal>
+                          <reference Id="4ed53c3d-2a74-456c-ab07-a2b5cd36daaf" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DFilter Member%3D(Name%3DRun OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Concurrent Type%3D(Name%3DBlockingCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)]))]) ParameterIdentifier%3Doutput" tag="ViewCode">
+                            <elementDefinition Id="12d6597d-769c-4187-9c38-2ecffa85433e" />
+                          </reference>
+                        </referencesInternal>
+                        <elementDefinition Id="12150c06-0952-4943-b558-68a51a4fb89a" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="670559c1-00e9-48ea-8a1a-9479d1d21790" LastKnownName="BlockingCollection&lt;IFilterInput‎&gt;" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="53dbe795-ca63-402b-96c9-2e65a6acd5e2" name="Run" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <referencesInternal>
+                    <reference Id="47e56ae6-1b08-4743-80d7-565054e44b8a" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DFilter Member%3D(Name%3DRun OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Concurrent Type%3D(Name%3DBlockingCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Concurrent Type%3D(Name%3DBlockingCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)]))])" tag="ViewCode">
+                      <elementDefinition Id="e2f26332-1684-456a-9f19-524c2f4bb597" />
+                    </reference>
+                  </referencesInternal>
+                  <appliedStereotypesInternal>
+                    <stereotypeInstance Id="cfa0836d-7baf-45d3-bb73-b22dc7edd596" name="method" profile="CSharpProfile">
+                      <elementDefinition Id="d8f62342-e21f-4ca3-a608-fc79d3073429" />
+                      <propertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="17437c8a-eddb-4874-ac81-9b7f26ec0f6f">
+                          <propertyInstance Id="953e1a8d-c399-4cea-bfec-1aff636ea94d" name="ClrAttributes">
+                            <elementDefinition Id="629eefaa-fcfc-421e-aa6b-150c7172b931" />
+                          </propertyInstance>
+                          <elementDefinition Id="6855c7cd-175c-4aec-a960-126db4a9bbcd" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="5139ac72-f988-44af-9854-6ccf929901d3">
+                          <propertyInstance Id="3ac51ec2-dc76-4976-bd3d-0417aeb61fd8" name="IsPartial" value="false">
+                            <elementDefinition Id="41adf8a8-b522-4661-aabc-3758871acbae" />
+                          </propertyInstance>
+                          <elementDefinition Id="f0926ade-4ad5-4fc3-a273-1f7a0379b9b8" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="85487e45-3aba-47ac-980a-5b1468dc5fd2">
+                          <propertyInstance Id="487a45ae-e985-4dbf-8b63-dd62080cfde1" name="IsUnsafe" value="false">
+                            <elementDefinition Id="83be4124-3d63-4124-becc-36ee5eb685e0" />
+                          </propertyInstance>
+                          <elementDefinition Id="b26aeda6-51e7-4a96-bc9e-fe49357a4f4d" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="b04b6654-db56-4323-a006-30b05525aa80">
+                          <propertyInstance Id="f2b1a860-01e1-4f41-a0cc-b42ea8a19af1" name="Inheritance" value="none">
+                            <elementDefinition Id="8d19bbad-ed53-4f4a-beb7-c275a2df57fa" />
+                          </propertyInstance>
+                          <elementDefinition Id="5187b2b8-5271-449c-b028-2266b563829f" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="0a2fbbc2-0bf5-422e-bb3b-431b0158c73b">
+                          <propertyInstance Id="f24779b0-909a-458b-b447-7685f301b70b" name="PackageVisibility" value="internal">
+                            <elementDefinition Id="9d6436bb-8321-45ae-88f0-f821d8e419de" />
+                          </propertyInstance>
+                          <elementDefinition Id="a2c2db98-ec10-4136-a287-2d8692fda38e" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="3b5f538f-431b-4531-95b7-b926109e49b1">
+                          <propertyInstance Id="e2a97c87-f3d7-4a11-9ff9-799a766d7bef" name="params" value="false">
+                            <elementDefinition Id="459da94b-9c38-47d3-8a45-f95d9d5e88b0" />
+                          </propertyInstance>
+                          <elementDefinition Id="7072da64-08b5-4cb2-aaaa-211aaa3724ef" />
+                        </stereotypeInstanceHasPropertyInstances>
+                      </propertyInstances>
+                    </stereotypeInstance>
+                  </appliedStereotypesInternal>
+                  <elementDefinition Id="3db4852f-bc98-4af0-82a0-5046fee2d000" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="024d3cca-5002-4720-8c61-dfd2e53f9d6e" name="input" direction="In">
+                        <referencesInternal>
+                          <reference Id="78ed8ecc-c23d-4bc5-8457-6fdae34eacd6" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DFilter Member%3D(Name%3DRun OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Concurrent Type%3D(Name%3DBlockingCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Concurrent Type%3D(Name%3DBlockingCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)]))]) ParameterIdentifier%3Dinput" tag="ViewCode">
+                            <elementDefinition Id="ee4abf8e-b0d7-422e-9c31-8cf73794258e" />
+                          </reference>
+                        </referencesInternal>
+                        <elementDefinition Id="718fe54d-29ba-4c13-8ce8-ae3eb4cc40ae" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="670559c1-00e9-48ea-8a1a-9479d1d21790" LastKnownName="BlockingCollection&lt;IFilterInput‎&gt;" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="ac616fc4-efc5-45d5-a816-89dda8613001" name="output" direction="In">
+                        <referencesInternal>
+                          <reference Id="954943c0-9d16-4eb3-a2cf-3d85ccc24963" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DFilter Member%3D(Name%3DRun OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Concurrent Type%3D(Name%3DBlockingCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Concurrent Type%3D(Name%3DBlockingCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)]))]) ParameterIdentifier%3Doutput" tag="ViewCode">
+                            <elementDefinition Id="fcc73482-414d-4f42-87c8-df6e2eb70d26" />
+                          </reference>
+                        </referencesInternal>
+                        <elementDefinition Id="95cb9e30-d566-422a-92bc-d0038d25f555" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="670559c1-00e9-48ea-8a1a-9479d1d21790" LastKnownName="BlockingCollection&lt;IFilterInput‎&gt;" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="8b5c812f-fa9b-4575-98ed-5c36f9e1411d" name="Filter" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <referencesInternal>
+                    <reference Id="35fab7f9-c5ae-4600-bd25-9fb2b6692429" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DFilter Member%3D.ctor" tag="ViewCode">
+                      <elementDefinition Id="c3a80b1b-be32-47fd-95c5-7320079d2ac2" />
+                    </reference>
+                  </referencesInternal>
+                  <appliedStereotypesInternal>
+                    <stereotypeInstance Id="372bdb4a-b734-49fb-9bd6-e65deb3ebd46" name="method" profile="CSharpProfile">
+                      <elementDefinition Id="98e7d8c9-631c-46c9-aa1f-6e382ab69a1e" />
+                      <propertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="609fff46-5cd2-4219-bbe8-3780875552a5">
+                          <propertyInstance Id="4fd3056e-00ae-433b-a4e1-a794f8e009ad" name="ClrAttributes">
+                            <elementDefinition Id="8fc64556-8833-40b3-8506-140579760011" />
+                          </propertyInstance>
+                          <elementDefinition Id="6980b78f-761a-415d-b536-9527ebd2af21" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="91bbad83-0ecb-489c-928d-bcf3eb256b20">
+                          <propertyInstance Id="89b8c976-f4de-453a-97f2-a23bdb1c82a5" name="IsPartial" value="false">
+                            <elementDefinition Id="56b586ef-a327-43f7-871e-17a920aaa0c5" />
+                          </propertyInstance>
+                          <elementDefinition Id="44cb70cf-139b-407f-b97b-34e59a12448b" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="cb6b3700-40e2-45c6-bb9b-caf2475bd5c9">
+                          <propertyInstance Id="58fcd28d-d7d5-4255-ad0b-03a105532762" name="IsUnsafe" value="false">
+                            <elementDefinition Id="9da231a5-e9ba-4869-89aa-120148f36d31" />
+                          </propertyInstance>
+                          <elementDefinition Id="6bd513bc-5d9b-4a9d-9ebc-80ae6354b370" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="bc3ad073-8d6e-4c42-9bcf-ed46b335b514">
+                          <propertyInstance Id="c1e41d82-052a-4981-829c-968aa7a921b2" name="Inheritance" value="none">
+                            <elementDefinition Id="9997d6f6-4807-43e0-a76d-a2d8125b8fac" />
+                          </propertyInstance>
+                          <elementDefinition Id="53d80444-ba22-4401-bd80-2789e48bbd7a" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="c8412828-6951-4350-8cab-79a21e3a0e2c">
+                          <propertyInstance Id="15e34bbb-a1cd-474e-868b-4f69418798ca" name="PackageVisibility" value="internal">
+                            <elementDefinition Id="20d7078e-959b-4eea-b148-fcfe3c9b20f7" />
+                          </propertyInstance>
+                          <elementDefinition Id="2591696b-3196-4b50-ba74-351c7c153063" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="ca9af73b-2df2-40c5-bd15-20ba4319ad96">
+                          <propertyInstance Id="7dcdc1db-8e22-41cf-85f7-2102b4a8d223" name="params" value="false">
+                            <elementDefinition Id="55b554f7-a879-4d86-86ac-4824a91b4bdb" />
+                          </propertyInstance>
+                          <elementDefinition Id="04925607-1964-4e01-abc5-f31668cf02ae" />
+                        </stereotypeInstanceHasPropertyInstances>
+                      </propertyInstances>
+                    </stereotypeInstance>
+                  </appliedStereotypesInternal>
+                  <elementDefinition Id="837c2083-6bb1-4248-99b9-4b36beb4a41b" />
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <Interface Id="61e6cc03-205b-4ba4-bfc5-7e5b1ce1bce2" name="IFilter" isAbstract="false" isLeaf="false">
+              <referencesInternal>
+                <reference Id="bf533827-ab57-439a-b4e3-919afab493da" handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilter" tag="ViewCode">
+                  <elementDefinition Id="fa1ab050-5309-41a8-b9f7-2ad8a2295152" />
+                </reference>
+              </referencesInternal>
+              <appliedStereotypesInternal>
+                <stereotypeInstance Id="f774d562-aafd-4edb-a7cd-92549f1fb4d4" name="interface" profile="CSharpProfile">
+                  <elementDefinition Id="3bae7828-e02c-4987-b9c3-84a57e17bc74" />
+                  <propertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="d655c17a-573b-45f3-b494-95b73691ea7d">
+                      <propertyInstance Id="c1c03a33-824e-45a6-a5ea-5f3681a333e7" name="ClrAttributes">
+                        <elementDefinition Id="d75e3376-a0ac-4a0d-a6be-f49758c50ba2" />
+                      </propertyInstance>
+                      <elementDefinition Id="6b562604-8a3d-4716-98f6-3887133b9ed6" />
+                    </stereotypeInstanceHasPropertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="bba5686b-1adb-493a-8bd4-8c63113fcb9b">
+                      <propertyInstance Id="ab6cc59c-42a6-4e54-97cc-93715454addb" name="IsPartial" value="false">
+                        <elementDefinition Id="ce565054-608b-4c99-9467-60de5d8fe8cf" />
+                      </propertyInstance>
+                      <elementDefinition Id="450dc19b-f767-4de8-82ef-c6b4f686bcc1" />
+                    </stereotypeInstanceHasPropertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="80bd5d21-8d72-4070-81a9-51ef199aa620">
+                      <propertyInstance Id="4b9ae846-c7b9-41aa-abf3-5c62abdc7937" name="IsUnsafe" value="false">
+                        <elementDefinition Id="e5aa5b95-cbc2-45b0-a509-3b66bf3949d5" />
+                      </propertyInstance>
+                      <elementDefinition Id="28da1989-5b0c-4d86-ba32-ea84ca5deb01" />
+                    </stereotypeInstanceHasPropertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="511c9fc1-d797-4fb8-ab2f-11ee23b60b8b">
+                      <propertyInstance Id="a3e7f026-3a8a-48bb-a7c5-891c1bcad151" name="PackageVisibility" value="internal">
+                        <elementDefinition Id="35abd167-eb6b-4f22-823d-a7cc044aa9d4" />
+                      </propertyInstance>
+                      <elementDefinition Id="7b01e125-9862-40a8-bf83-817c948a799c" />
+                    </stereotypeInstanceHasPropertyInstances>
+                  </propertyInstances>
+                </stereotypeInstance>
+              </appliedStereotypesInternal>
+              <elementDefinition Id="8dd66f67-7b17-477c-88e7-ed72107d52a0" />
+              <ownedOperations>
+                <operation Id="bbb6390d-ff59-434c-8168-31f192e419c0" name="Run" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+                  <referencesInternal>
+                    <reference Id="4f948724-db9e-465f-abcc-4ef72b2d72dd" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilter Member%3D(Name%3DRun OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Concurrent Type%3D(Name%3DBlockingCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Concurrent Type%3D(Name%3DBlockingCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)]))])" tag="ViewCode">
+                      <elementDefinition Id="25aa2b5f-1908-422d-a018-a736a4f44aae" />
+                    </reference>
+                  </referencesInternal>
+                  <appliedStereotypesInternal>
+                    <stereotypeInstance Id="1562b80e-bd31-4e5a-9c76-80b375731c9d" name="method" profile="CSharpProfile">
+                      <elementDefinition Id="885e0417-29e8-4354-81e2-c665d1d88c81" />
+                      <propertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="39680e54-6328-4f30-a438-a230d4a44f9c">
+                          <propertyInstance Id="f5bf61f6-147d-4b57-b1a8-525f9ede1000" name="ClrAttributes">
+                            <elementDefinition Id="97d3241d-66d9-4c0d-b71e-304dd4630164" />
+                          </propertyInstance>
+                          <elementDefinition Id="7abd1f52-be3c-4b89-8248-22a27497b41f" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="68497c4c-1524-473f-a3ad-492c4a4ea0a2">
+                          <propertyInstance Id="b848be98-f049-4357-bf36-9e804b3258a0" name="IsPartial" value="false">
+                            <elementDefinition Id="6011e30f-5efb-46cd-ba8d-d28bfc080c24" />
+                          </propertyInstance>
+                          <elementDefinition Id="c56dece5-6755-41d7-80a0-b78790d3feed" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="d81fb8e8-0759-414a-88ee-9fa8282f9418">
+                          <propertyInstance Id="ae91b49c-ac03-44fe-949c-650d7c21509f" name="IsUnsafe" value="false">
+                            <elementDefinition Id="336f86c9-9020-4784-99be-7b34624b3e06" />
+                          </propertyInstance>
+                          <elementDefinition Id="badd9460-ba0d-490d-b948-969a63dc285e" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="a7ec1301-66cd-4a82-91ec-5131307e31f5">
+                          <propertyInstance Id="0adee6ad-8d43-431c-a5be-c182504328a5" name="Inheritance" value="none">
+                            <elementDefinition Id="f8e16b05-3fc8-4b9a-ba32-351c4fd07900" />
+                          </propertyInstance>
+                          <elementDefinition Id="c0e19ec2-b600-4f0c-ab8d-df9317d75152" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="a9587d7d-9af0-4f56-8f07-b9419edc2227">
+                          <propertyInstance Id="692ff79d-7dcf-45fd-80fd-eec484e79fb5" name="PackageVisibility" value="internal">
+                            <elementDefinition Id="54785cc5-a00b-495b-9c18-207b9504cc0e" />
+                          </propertyInstance>
+                          <elementDefinition Id="f262e49f-aae8-4954-8567-772a887a1aa4" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="782d6550-6105-445b-acad-7eed6f97de06">
+                          <propertyInstance Id="83887d28-05d6-44c2-8cbe-8bf64b5ead79" name="params" value="false">
+                            <elementDefinition Id="d55598eb-68e1-4374-bccb-7f6c40225f33" />
+                          </propertyInstance>
+                          <elementDefinition Id="be177ce5-b822-45e6-ad65-72f5a97d1660" />
+                        </stereotypeInstanceHasPropertyInstances>
+                      </propertyInstances>
+                    </stereotypeInstance>
+                  </appliedStereotypesInternal>
+                  <elementDefinition Id="2164c7b2-e595-407a-9840-651202ab805f" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="08a86af8-8dc1-4eba-9175-99617e2ab528" name="input" direction="In">
+                        <referencesInternal>
+                          <reference Id="b0d12715-89dd-44c9-96ab-6a94399b118b" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilter Member%3D(Name%3DRun OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Concurrent Type%3D(Name%3DBlockingCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Concurrent Type%3D(Name%3DBlockingCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)]))]) ParameterIdentifier%3Dinput" tag="ViewCode">
+                            <elementDefinition Id="506d95a7-926b-4e3c-99ae-ad5f9f441797" />
+                          </reference>
+                        </referencesInternal>
+                        <elementDefinition Id="d96498dd-a662-46b3-aed7-0aa7d6b20018" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="670559c1-00e9-48ea-8a1a-9479d1d21790" LastKnownName="BlockingCollection&lt;IFilterInput‎&gt;" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="780b2580-2ea1-4b61-9e9e-247e0948ccab" name="output" direction="In">
+                        <referencesInternal>
+                          <reference Id="e38e9c9f-e6f8-4ed1-a947-a7217006c2a7" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilter Member%3D(Name%3DRun OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Concurrent Type%3D(Name%3DBlockingCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Concurrent Type%3D(Name%3DBlockingCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)]))]) ParameterIdentifier%3Doutput" tag="ViewCode">
+                            <elementDefinition Id="2f52b7f4-6fb6-4b5c-8cf0-603f718a6d90" />
+                          </reference>
+                        </referencesInternal>
+                        <elementDefinition Id="186ecb0f-0d50-4213-8fa3-f79e6a69b1be" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="670559c1-00e9-48ea-8a1a-9479d1d21790" LastKnownName="BlockingCollection&lt;IFilterInput‎&gt;" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+              </ownedOperations>
+            </Interface>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <Interface Id="e1a7b773-1452-419b-9661-67e0e3707dd8" name="IFilterInput" isAbstract="false" isLeaf="false">
+              <referencesInternal>
+                <reference Id="17b73593-f22b-4a9b-b40f-6a0ce6133705" handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput" tag="ViewCode">
+                  <elementDefinition Id="1316e740-0531-46b0-aa85-eb98776c1815" />
+                </reference>
+              </referencesInternal>
+              <appliedStereotypesInternal>
+                <stereotypeInstance Id="f8d7bd83-af4d-44ad-9f07-2335943fba2c" name="interface" profile="CSharpProfile">
+                  <elementDefinition Id="a52d8d84-702a-45e2-bb3c-72441d66a2c8" />
+                  <propertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="8301093e-0806-4eec-8b7b-bc84380b41f5">
+                      <propertyInstance Id="66d2f5bf-27f4-4fa8-834c-d7034b40b63d" name="ClrAttributes">
+                        <elementDefinition Id="dbbb3660-e33c-4d97-b25c-e6f96bab2a10" />
+                      </propertyInstance>
+                      <elementDefinition Id="00607bab-2eee-41bb-8123-d62aee3abf80" />
+                    </stereotypeInstanceHasPropertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="481f4227-509b-4276-b829-dac5423ddbee">
+                      <propertyInstance Id="50d080f8-d9b1-4de5-95ce-dbb45c6c0e35" name="IsPartial" value="false">
+                        <elementDefinition Id="b38d1607-7661-4ef2-9869-23a6fa37ec2a" />
+                      </propertyInstance>
+                      <elementDefinition Id="bbf99ccf-aad0-405c-8758-180d203880c4" />
+                    </stereotypeInstanceHasPropertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="6b0c287a-73b9-4f58-9b25-f1634c00c43c">
+                      <propertyInstance Id="e1ae4cfa-7bba-4315-a076-77a26a16286a" name="IsUnsafe" value="false">
+                        <elementDefinition Id="bdb1c356-87ac-4b0f-b4f8-2acfdc26d338" />
+                      </propertyInstance>
+                      <elementDefinition Id="2cec7b70-e7a5-45bb-94d7-b8b772cce926" />
+                    </stereotypeInstanceHasPropertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="74cfff40-d0c0-42ba-9dfb-ca7af3dc131c">
+                      <propertyInstance Id="af6b7982-e6b8-4c49-a687-dfa6464d6437" name="PackageVisibility" value="internal">
+                        <elementDefinition Id="3ce3666e-d197-4607-98da-7f71158575a4" />
+                      </propertyInstance>
+                      <elementDefinition Id="b49c40b6-8205-41d9-8f8f-1ca33d902c05" />
+                    </stereotypeInstanceHasPropertyInstances>
+                  </propertyInstances>
+                </stereotypeInstance>
+              </appliedStereotypesInternal>
+              <elementDefinition Id="366c8c45-5d61-4d99-ae2c-b6a023fbb83b" />
+              <ownedAttributes>
+                <property Id="7b4202ea-4e95-4c03-9143-ee19293e9c3b" name="Value" isLeaf="false" isStatic="false" isReadOnly="true" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <referencesInternal>
+                    <reference Id="c15e2983-11d7-43e3-aba6-f1751ba5b1e3" handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput Member%3DValue" tag="ViewCode">
+                      <elementDefinition Id="2737c669-7b96-4a5b-ad7a-fd572b37fef3" />
+                    </reference>
+                  </referencesInternal>
+                  <appliedStereotypesInternal>
+                    <stereotypeInstance Id="54c19ab0-8c15-47e2-9031-327527e85d40" name="property" profile="CSharpProfile">
+                      <elementDefinition Id="82b427d1-81bc-42eb-9362-dc912a7a2294" />
+                      <propertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="d5d72a3a-1076-4f5f-8c70-541f2f3a93dc">
+                          <propertyInstance Id="95bc5cf3-dea2-4ad0-b0f8-1a544951bc75" name="ClrAttributes">
+                            <elementDefinition Id="46bdb63d-cee9-4ec7-bfba-6f80dabb044c" />
+                          </propertyInstance>
+                          <elementDefinition Id="ccbe8635-2796-46e9-ad6e-0c9f8178c833" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="ca0544d1-9225-4ab6-9a5e-f07024f07c25">
+                          <propertyInstance Id="d8d195ae-b26c-44cd-86f7-19845f79f6ed" name="Get" value="none">
+                            <elementDefinition Id="751782b7-7cd7-4390-93b5-41bb35fc51fb" />
+                          </propertyInstance>
+                          <elementDefinition Id="f6f76360-be6f-43e3-8442-3b2386e65ffe" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="07f68304-99e5-4f7b-b113-b1962b0d8f8b">
+                          <propertyInstance Id="ba722538-100a-42a7-bef3-15921a17713d" name="HasBody" value="false">
+                            <elementDefinition Id="bb2ac323-5380-4330-a181-43d06182ced3" />
+                          </propertyInstance>
+                          <elementDefinition Id="fe7da904-1a48-4605-8a22-07f341b39f38" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="8d9d5909-ca0b-4fb7-aa1d-d5d0ed39056c">
+                          <propertyInstance Id="66f0af4f-ada8-43ab-a900-b24491b88687" name="IsUnsafe" value="false">
+                            <elementDefinition Id="6fc13e35-c41e-41dd-a33b-d44dc8c1dbe7" />
+                          </propertyInstance>
+                          <elementDefinition Id="a3951565-6dbd-4865-b76f-4a1083b68b9b" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="17352fb4-c49a-45e5-bd4c-4feb21a4d6d6">
+                          <propertyInstance Id="54fd28af-c23e-4c93-ae81-2c4905b0b0cf" name="Inheritance" value="none">
+                            <elementDefinition Id="34d8928e-c3b2-42f5-9e01-6c0a7697374c" />
+                          </propertyInstance>
+                          <elementDefinition Id="39b0cb99-19e3-4168-a062-055a8ac88428" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="bc414d10-967c-4514-b481-510d6078c23f">
+                          <propertyInstance Id="609fc4a7-5843-4683-8f48-43363b2be9bc" name="PackageVisibility" value="internal">
+                            <elementDefinition Id="8e5d36b6-d1db-4070-8ba3-d243926e1c96" />
+                          </propertyInstance>
+                          <elementDefinition Id="0c49de89-3c04-411d-8158-c67a38dba08a" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="d3efb8a5-ed5a-4250-9749-e2da67ad0348">
+                          <propertyInstance Id="0994dc29-b11a-44cc-b27c-4e2ef22bebd0" name="Set" value="none">
+                            <elementDefinition Id="8a4b2bf1-9af0-427d-adfd-165d4b880b87" />
+                          </propertyInstance>
+                          <elementDefinition Id="859b5430-7cb6-4e31-92eb-a5fefd1d27a6" />
+                        </stereotypeInstanceHasPropertyInstances>
+                      </propertyInstances>
+                    </stereotypeInstance>
+                  </appliedStereotypesInternal>
+                  <elementDefinition Id="6204155c-1d1e-42ef-a75f-ffc83beeb4e1" />
+                </property>
+              </ownedAttributes>
+            </Interface>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <Interface Id="cebf6df3-1766-4567-9de4-a676be415e45" name="IFilter" isAbstract="false" isLeaf="false">
+              <referencesInternal>
+                <reference Id="227cfd9b-7409-41b5-a127-1cd34f68b7cf" handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilter" tag="ViewCode">
+                  <elementDefinition Id="fa1ab050-5309-41a8-b9f7-2ad8a2295152" />
+                </reference>
+              </referencesInternal>
+              <appliedStereotypesInternal>
+                <stereotypeInstance Id="7f716f6d-e41d-450f-b438-bae95b91da24" name="interface" profile="CSharpProfile">
+                  <elementDefinition Id="3bae7828-e02c-4987-b9c3-84a57e17bc74" />
+                  <propertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="1dcf7672-4250-433e-8858-ef57b07186d4">
+                      <propertyInstance Id="34cd49d2-2e3e-47bb-abd6-da30d3e231cd" name="ClrAttributes">
+                        <elementDefinition Id="d75e3376-a0ac-4a0d-a6be-f49758c50ba2" />
+                      </propertyInstance>
+                      <elementDefinition Id="6b562604-8a3d-4716-98f6-3887133b9ed6" />
+                    </stereotypeInstanceHasPropertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="6865e768-5390-4b0b-9bac-df06d1d26344">
+                      <propertyInstance Id="ef09050f-f51a-476f-8ca2-b83b549c7b5f" name="IsPartial" value="false">
+                        <elementDefinition Id="ce565054-608b-4c99-9467-60de5d8fe8cf" />
+                      </propertyInstance>
+                      <elementDefinition Id="450dc19b-f767-4de8-82ef-c6b4f686bcc1" />
+                    </stereotypeInstanceHasPropertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="a34e9e07-71cf-45ff-93cb-df12f364e7d9">
+                      <propertyInstance Id="dfede980-93fd-47aa-aa5a-f018b92c43aa" name="IsUnsafe" value="false">
+                        <elementDefinition Id="e5aa5b95-cbc2-45b0-a509-3b66bf3949d5" />
+                      </propertyInstance>
+                      <elementDefinition Id="28da1989-5b0c-4d86-ba32-ea84ca5deb01" />
+                    </stereotypeInstanceHasPropertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="6b546c8b-3285-4d88-881c-3d854c6af56f">
+                      <propertyInstance Id="dd258270-27f3-4195-9bf3-99e82539717f" name="PackageVisibility" value="internal">
+                        <elementDefinition Id="35abd167-eb6b-4f22-823d-a7cc044aa9d4" />
+                      </propertyInstance>
+                      <elementDefinition Id="7b01e125-9862-40a8-bf83-817c948a799c" />
+                    </stereotypeInstanceHasPropertyInstances>
+                  </propertyInstances>
+                </stereotypeInstance>
+              </appliedStereotypesInternal>
+              <elementDefinition Id="8dd66f67-7b17-477c-88e7-ed72107d52a0" />
+              <ownedOperations>
+                <operation Id="a678ba17-831c-4b5e-998e-8a0367b483cd" name="Run" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+                  <referencesInternal>
+                    <reference Id="dfef111d-690d-4474-805f-1d194cb941d0" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilter Member%3D(Name%3DRun OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Concurrent Type%3D(Name%3DBlockingCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Concurrent Type%3D(Name%3DBlockingCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)]))])" tag="ViewCode">
+                      <elementDefinition Id="25aa2b5f-1908-422d-a018-a736a4f44aae" />
+                    </reference>
+                  </referencesInternal>
+                  <appliedStereotypesInternal>
+                    <stereotypeInstance Id="c2b8d5d9-ad1a-40fa-a039-b88f8d3c81e8" name="method" profile="CSharpProfile">
+                      <elementDefinition Id="885e0417-29e8-4354-81e2-c665d1d88c81" />
+                      <propertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="8b2232f0-89ec-46eb-95e3-84ad579ba8da">
+                          <propertyInstance Id="3fb119d9-0e1a-428e-b9e1-dbe73ae85dbc" name="ClrAttributes">
+                            <elementDefinition Id="97d3241d-66d9-4c0d-b71e-304dd4630164" />
+                          </propertyInstance>
+                          <elementDefinition Id="7abd1f52-be3c-4b89-8248-22a27497b41f" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="b16eba2b-2618-4b37-a7e0-03ba71aebc01">
+                          <propertyInstance Id="d4021fe5-9001-4fd8-80c0-abf3e91645b8" name="IsPartial" value="false">
+                            <elementDefinition Id="6011e30f-5efb-46cd-ba8d-d28bfc080c24" />
+                          </propertyInstance>
+                          <elementDefinition Id="c56dece5-6755-41d7-80a0-b78790d3feed" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="fffe6893-c1bb-462f-b86b-28038040c51a">
+                          <propertyInstance Id="7fcec555-0701-47ef-a4b5-de245f7183a2" name="IsUnsafe" value="false">
+                            <elementDefinition Id="336f86c9-9020-4784-99be-7b34624b3e06" />
+                          </propertyInstance>
+                          <elementDefinition Id="badd9460-ba0d-490d-b948-969a63dc285e" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="238d0f48-d64e-4272-83b6-165498c237f1">
+                          <propertyInstance Id="8e74d3a0-3b7a-4ab5-a728-f4a49fad2ba4" name="Inheritance" value="none">
+                            <elementDefinition Id="f8e16b05-3fc8-4b9a-ba32-351c4fd07900" />
+                          </propertyInstance>
+                          <elementDefinition Id="c0e19ec2-b600-4f0c-ab8d-df9317d75152" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="a9d5d530-15a0-4f9f-92d1-d74e53166137">
+                          <propertyInstance Id="3c327815-f913-495b-b34c-7d6a8fae9ead" name="PackageVisibility" value="internal">
+                            <elementDefinition Id="54785cc5-a00b-495b-9c18-207b9504cc0e" />
+                          </propertyInstance>
+                          <elementDefinition Id="f262e49f-aae8-4954-8567-772a887a1aa4" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="591c7b5f-0e06-450f-9dac-5457ec054ee9">
+                          <propertyInstance Id="62dc4a34-7f35-4631-bda8-b9d281af4c85" name="params" value="false">
+                            <elementDefinition Id="d55598eb-68e1-4374-bccb-7f6c40225f33" />
+                          </propertyInstance>
+                          <elementDefinition Id="be177ce5-b822-45e6-ad65-72f5a97d1660" />
+                        </stereotypeInstanceHasPropertyInstances>
+                      </propertyInstances>
+                    </stereotypeInstance>
+                  </appliedStereotypesInternal>
+                  <elementDefinition Id="2164c7b2-e595-407a-9840-651202ab805f" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="e0fd1d1f-5e69-430f-b7de-fa0b7d8b97ac" name="input" direction="In">
+                        <referencesInternal>
+                          <reference Id="f722d9ac-ce92-4722-a335-6a0647d81cea" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilter Member%3D(Name%3DRun OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Concurrent Type%3D(Name%3DBlockingCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Concurrent Type%3D(Name%3DBlockingCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)]))]) ParameterIdentifier%3Dinput" tag="ViewCode">
+                            <elementDefinition Id="506d95a7-926b-4e3c-99ae-ad5f9f441797" />
+                          </reference>
+                        </referencesInternal>
+                        <elementDefinition Id="d96498dd-a662-46b3-aed7-0aa7d6b20018" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="670559c1-00e9-48ea-8a1a-9479d1d21790" LastKnownName="BlockingCollection&lt;IFilterInput‎&gt;" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="a43278e0-75be-4362-a126-d867701c803f" name="output" direction="In">
+                        <referencesInternal>
+                          <reference Id="7e3b12f4-4780-49b4-875c-b775a9628441" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilter Member%3D(Name%3DRun OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Concurrent Type%3D(Name%3DBlockingCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Concurrent Type%3D(Name%3DBlockingCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)]))]) ParameterIdentifier%3Doutput" tag="ViewCode">
+                            <elementDefinition Id="2f52b7f4-6fb6-4b5c-8cf0-603f718a6d90" />
+                          </reference>
+                        </referencesInternal>
+                        <elementDefinition Id="186ecb0f-0d50-4213-8fa3-f79e6a69b1be" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="670559c1-00e9-48ea-8a1a-9479d1d21790" LastKnownName="BlockingCollection&lt;IFilterInput‎&gt;" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+              </ownedOperations>
+            </Interface>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <Interface Id="526e177c-726b-4994-9624-7c56177a8ec2" name="IPipe" isAbstract="false" isLeaf="false">
+              <referencesInternal>
+                <reference Id="432b55fd-9090-43c3-90e6-addf6cd4ebb3" handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIPipe" tag="ViewCode">
+                  <elementDefinition Id="6a4bac47-d349-4f29-93aa-98b5e262e907" />
+                </reference>
+              </referencesInternal>
+              <appliedStereotypesInternal>
+                <stereotypeInstance Id="a4a0dda9-84ce-4c99-8b6e-2f7b181d0448" name="interface" profile="CSharpProfile">
+                  <elementDefinition Id="206b806e-f281-415c-a999-9006e31086ba" />
+                  <propertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="98b50c63-3bff-4ca0-a0a5-9b9b89db31b9">
+                      <propertyInstance Id="332aa1b0-0e63-4e5b-b017-d37c2ea1b5c5" name="ClrAttributes">
+                        <elementDefinition Id="99d0cda3-7730-496a-b3d5-112bddf13fab" />
+                      </propertyInstance>
+                      <elementDefinition Id="b4064e77-7080-4055-b3cb-e0270c224664" />
+                    </stereotypeInstanceHasPropertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="ef7fda90-c9af-475f-91d4-b6453bf2624f">
+                      <propertyInstance Id="c2e34b03-5cbb-449e-a355-dfbbfd90e5b8" name="IsPartial" value="false">
+                        <elementDefinition Id="3f648ab6-5f91-47f1-9b4e-9aada45962ad" />
+                      </propertyInstance>
+                      <elementDefinition Id="bf063ce7-2dc3-44d2-9b87-5d397a982d77" />
+                    </stereotypeInstanceHasPropertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="7aa9663d-0467-4849-8e86-057a694ca197">
+                      <propertyInstance Id="d19e13eb-50ae-4c62-84a1-070134b9f1c6" name="IsUnsafe" value="false">
+                        <elementDefinition Id="913b3c21-da16-4942-afdd-e1d79ea0ede0" />
+                      </propertyInstance>
+                      <elementDefinition Id="738013b4-0845-4441-b6e2-469c54680746" />
+                    </stereotypeInstanceHasPropertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="e67e29a2-4e82-4418-ba82-7e686fb74540">
+                      <propertyInstance Id="f9d5f7de-24af-49bb-a430-697fa1647eeb" name="PackageVisibility" value="internal">
+                        <elementDefinition Id="a428905c-4fe0-4d60-8c11-9a20c12c57b4" />
+                      </propertyInstance>
+                      <elementDefinition Id="3d4ac2e2-8624-4db4-a8bc-2afbe83fd0a5" />
+                    </stereotypeInstanceHasPropertyInstances>
+                  </propertyInstances>
+                </stereotypeInstance>
+              </appliedStereotypesInternal>
+              <elementDefinition Id="0f181324-f093-4865-9e4b-c9851b1edb1c" />
+              <targetEnds>
+                <association Id="a61d4061-83fb-4092-bf94-7b293d6a9cbd" isDerived="false" sourceEndRoleName="IPipe" targetEndRoleName="Filter" isLeaf="false" isAbstract="false">
+                  <interfaceMoniker Id="61e6cc03-205b-4ba4-bfc5-7e5b1ce1bce2" LastKnownName="IFilter" />
+                  <description>Property Filter references type IFilter.</description>
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="a8d8afb8-e5cf-4fdd-ab94-6865187fff16" name="IPipe" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <lowerValueInternal>
+                          <literalString Id="8334d6b3-bd47-45a2-b35c-fa25893a0cc2" name="Lower" value="*">
+                            <elementDefinition Id="d254ab17-89a0-4947-9edb-853e35e09a57" />
+                          </literalString>
+                        </lowerValueInternal>
+                        <upperValueInternal>
+                          <literalString Id="ee17364e-e169-48d5-bc78-52eacada223b" name="Upper" value="*">
+                            <elementDefinition Id="4bb2c132-cfd3-4133-8dda-6abc9e66fd0d" />
+                          </literalString>
+                        </upperValueInternal>
+                        <elementDefinition Id="bd6d5bb6-0820-4db1-a643-354ad84d886c" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="21f209b0-eb98-41be-ad83-d0f7d87c278e" name="Filter" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <lowerValueInternal>
+                          <literalString Id="44306dd1-7e94-4a75-b9b3-ab641ed9a77b" name="Lower" value="1">
+                            <elementDefinition Id="e7b99184-08af-485f-8451-8fbd853d5849" />
+                          </literalString>
+                        </lowerValueInternal>
+                        <upperValueInternal>
+                          <literalString Id="c85f6f0b-9db1-4a5d-96a5-c124616cc611" name="Upper" value="1">
+                            <elementDefinition Id="9e392cf5-6b46-47ac-b2d0-828b38937297" />
+                          </literalString>
+                        </upperValueInternal>
+                        <elementDefinition Id="93778155-b273-4896-a62a-fb47cac17c23" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="325e3e41-5b63-4efa-b6b0-a2d1a16c6c03" />
+                </association>
+              </targetEnds>
+              <ownedAttributes>
+                <property Id="91c7f95c-c136-42d0-9ed2-f1ff78c92240" name="Filter" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <referencesInternal>
+                    <reference Id="7ebdfa1b-f161-402b-9313-cb8abf44b3f8" handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIPipe Member%3DFilter" tag="ViewCode">
+                      <elementDefinition Id="d516cb9a-e061-447b-8a7b-1f8fa1e220e3" />
+                    </reference>
+                  </referencesInternal>
+                  <appliedStereotypesInternal>
+                    <stereotypeInstance Id="d28b94eb-b020-4526-a7f3-417c5d1cee93" name="property" profile="CSharpProfile">
+                      <elementDefinition Id="75a0261e-4356-4856-9ccc-cd8a83b0b74c" />
+                      <propertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="40f2136c-054a-40ef-bc10-589d10899638">
+                          <propertyInstance Id="2e3fb1d6-b322-41f7-ac2c-54442936dbf3" name="ClrAttributes">
+                            <elementDefinition Id="15699c69-3a19-4fa0-9473-e862b1e4dc4e" />
+                          </propertyInstance>
+                          <elementDefinition Id="878fc2ad-1c24-4760-9e4e-3856d397b51c" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="31f02313-2a07-4ec0-9fdf-032b1d89187c">
+                          <propertyInstance Id="2434174b-a6bf-4e82-9466-1b66c55fcdac" name="Get" value="public">
+                            <elementDefinition Id="b937148d-1904-4a64-8f96-c918b990a000" />
+                          </propertyInstance>
+                          <elementDefinition Id="c27f1d27-a67a-4ab7-8f83-67ca00affc7f" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="9e94387e-8226-4d8e-8561-afaa37820bdb">
+                          <propertyInstance Id="3bb87564-d359-49c0-a843-12dd4bcdf634" name="HasBody" value="false">
+                            <elementDefinition Id="c65a9f32-23da-4ede-a0e1-f20da314f95e" />
+                          </propertyInstance>
+                          <elementDefinition Id="dff9410b-cce4-4054-8a47-7d2eced705b5" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="a8ed543a-4c30-483a-82cd-4e3eca33fc5f">
+                          <propertyInstance Id="26ad8289-271f-4e2d-ad34-8bc787459cb0" name="IsUnsafe" value="false">
+                            <elementDefinition Id="c465d55f-cecf-443a-b75b-66003e8d81a5" />
+                          </propertyInstance>
+                          <elementDefinition Id="85c4330e-0f91-441f-b034-698d3d45dd0f" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="3dd6428b-6f2f-495e-9f6d-ffb12c247e2d">
+                          <propertyInstance Id="9b5fdbff-fed8-4f3c-aa58-d7b60a6ebadf" name="Inheritance" value="none">
+                            <elementDefinition Id="11f833bc-79bb-4cb9-ae75-fe844a34bd02" />
+                          </propertyInstance>
+                          <elementDefinition Id="68a0be2a-fbc2-4010-b67b-131c4f5c94a0" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="481d6690-715c-48a1-876c-46626faf6fc3">
+                          <propertyInstance Id="dc5d25a5-7781-4017-9a66-08e0af03a0e9" name="PackageVisibility" value="internal">
+                            <elementDefinition Id="97324d63-b6ff-4e42-9176-14f43ea44558" />
+                          </propertyInstance>
+                          <elementDefinition Id="614056fe-45fc-445a-a0f6-a83292c34d13" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="c7c64d8c-8b51-4b0b-ad72-07a7662b5ca1">
+                          <propertyInstance Id="35525842-b63a-468f-9c13-7c3b892b37f8" name="Set" value="public">
+                            <elementDefinition Id="e1fdf0ab-b1f1-4f06-a1ad-6af3f1e7823f" />
+                          </propertyInstance>
+                          <elementDefinition Id="9827c5eb-8e07-4a15-9294-ed63f19c1951" />
+                        </stereotypeInstanceHasPropertyInstances>
+                      </propertyInstances>
+                    </stereotypeInstance>
+                  </appliedStereotypesInternal>
+                  <elementDefinition Id="ca056546-0b0d-4364-9d8e-fba33a344bf7" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="24ad10f0-f807-443a-ad15-fe8e01c2c321" LastKnownName="IFilter" />
+                  </type_NamedElement>
+                </property>
+                <property Id="d3ac69e9-98ba-44d9-8f4a-1812174a294d" name="Buffer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <referencesInternal>
+                    <reference Id="30eb0fde-7448-437e-a59c-a5e7e97986f8" handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIPipe Member%3DBuffer" tag="ViewCode">
+                      <elementDefinition Id="5be722b0-509e-4a26-9931-86798da8f1fc" />
+                    </reference>
+                  </referencesInternal>
+                  <appliedStereotypesInternal>
+                    <stereotypeInstance Id="ce808907-e394-459f-be95-16698933c425" name="property" profile="CSharpProfile">
+                      <elementDefinition Id="d73cb9d6-90a7-4526-a396-2d4662cdb27a" />
+                      <propertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="2d2eb756-dbfb-4971-a4ac-4080e734bd84">
+                          <propertyInstance Id="249f99e0-800f-4d0e-9cde-9e340ef136b5" name="ClrAttributes">
+                            <elementDefinition Id="fae33e79-68dc-4d0e-b031-cb43eec9f10d" />
+                          </propertyInstance>
+                          <elementDefinition Id="e186a887-fc6d-47c8-b93f-debf26fd655e" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="4efc094b-c0c8-460c-a78f-38396dda3f5b">
+                          <propertyInstance Id="1ad5fc25-4347-4cc6-9e21-a9a72f141b14" name="Get" value="public">
+                            <elementDefinition Id="0af673c2-e9d2-42f6-86f8-9d128c9e7709" />
+                          </propertyInstance>
+                          <elementDefinition Id="c6a01971-55f0-4659-a1d1-92037d4dd6d4" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="6f21b303-66c6-424e-81aa-51a0e1b8c96f">
+                          <propertyInstance Id="04d7aa0f-dc1b-464a-a60e-22bbc70bdae8" name="HasBody" value="false">
+                            <elementDefinition Id="be8716c0-8906-4e45-8064-c9d81ec7aee2" />
+                          </propertyInstance>
+                          <elementDefinition Id="c6ba68f3-8aba-4e80-9894-82bdd07b8eea" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="df62e23c-9805-434d-b199-517dfa5b381a">
+                          <propertyInstance Id="499be509-0502-4e31-b29d-9b44d0f78d93" name="IsUnsafe" value="false">
+                            <elementDefinition Id="1f56bc58-0627-4af9-9b97-5343ac240930" />
+                          </propertyInstance>
+                          <elementDefinition Id="86660de6-b5f0-4917-a6a1-14cdaeaedcd2" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="820989a7-f415-45e7-bb74-7fde8897a146">
+                          <propertyInstance Id="c453b6b5-6e7d-4eac-b0df-cc9c17717f8d" name="Inheritance" value="none">
+                            <elementDefinition Id="509ff288-4086-449c-b518-35ec66859e39" />
+                          </propertyInstance>
+                          <elementDefinition Id="dfb19e83-d3df-48d8-9573-c69bd3d32d97" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="f80ba5d7-70de-487c-ad6a-8ce4869c9254">
+                          <propertyInstance Id="7ffc7775-c4aa-40d3-b0c2-e411ec145979" name="PackageVisibility" value="internal">
+                            <elementDefinition Id="3d7e3d8f-fb46-4694-8fda-9a34835360bf" />
+                          </propertyInstance>
+                          <elementDefinition Id="48c53cd2-47fb-4462-8b35-d11cf42417dd" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="7ce26572-032d-476c-9a82-0bf5a3605222">
+                          <propertyInstance Id="54be2e07-e679-4289-9133-7492b3d740e2" name="Set" value="public">
+                            <elementDefinition Id="9f28ffbe-bc69-43d3-9c0a-953c3a902307" />
+                          </propertyInstance>
+                          <elementDefinition Id="a9c4d2d6-77dd-49c2-93bd-69291921726d" />
+                        </stereotypeInstanceHasPropertyInstances>
+                      </propertyInstances>
+                    </stereotypeInstance>
+                  </appliedStereotypesInternal>
+                  <elementDefinition Id="62f8779a-64e7-4bc5-b4b0-765b39d1bf89" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="670559c1-00e9-48ea-8a1a-9479d1d21790" LastKnownName="BlockingCollection&lt;IFilterInput‎&gt;" />
+                  </type_NamedElement>
+                </property>
+              </ownedAttributes>
+            </Interface>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <Interface Id="05ca2dcd-4c9c-45ea-b397-edd9d4fd8635" name="IPipeline" isAbstract="false" isLeaf="false">
+              <referencesInternal>
+                <reference Id="113e9289-7731-4398-823b-7f113561a5c8" handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIPipeline" tag="ViewCode">
+                  <elementDefinition Id="a7ba23e4-a581-4029-b4ae-70bc1cff1282" />
+                </reference>
+              </referencesInternal>
+              <appliedStereotypesInternal>
+                <stereotypeInstance Id="4be41031-ffa1-4abf-a642-dd84b03657dd" name="interface" profile="CSharpProfile">
+                  <elementDefinition Id="92e20458-3851-4c59-a8b6-84042bd9aaf1" />
+                  <propertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="1a35d318-727f-4e59-b39e-625af72cf1b2">
+                      <propertyInstance Id="bf87aa97-b634-4360-951a-83c31d6b751b" name="ClrAttributes">
+                        <elementDefinition Id="3b54eaf4-85fb-4912-a7d8-d4d81b7036fa" />
+                      </propertyInstance>
+                      <elementDefinition Id="e307215b-6995-4caa-9fef-ade716f9ab2e" />
+                    </stereotypeInstanceHasPropertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="df9f9731-0e86-4d89-839c-4ec34b5066c5">
+                      <propertyInstance Id="28e4c0d7-1ee1-44c5-bf0a-73fdeb581225" name="IsPartial" value="false">
+                        <elementDefinition Id="1cb7bb8a-1436-4e26-aaa8-87fb8d40f96e" />
+                      </propertyInstance>
+                      <elementDefinition Id="fcb58a17-0fcd-4ecb-b2b3-cec87347e687" />
+                    </stereotypeInstanceHasPropertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="7ce0f0a6-4810-41b5-bf98-b95a32b2f314">
+                      <propertyInstance Id="71c3ca19-ff5e-402f-8d73-ba8ccc9fa0e1" name="IsUnsafe" value="false">
+                        <elementDefinition Id="9609f680-2bd8-4393-8cc6-af57e4218be7" />
+                      </propertyInstance>
+                      <elementDefinition Id="3521cfdc-e070-4bda-8f1a-9ab2ec72f1d3" />
+                    </stereotypeInstanceHasPropertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="fe5c62e1-8494-4348-8825-c68a935c3eba">
+                      <propertyInstance Id="bc5f3c1c-aa69-4cec-b5f5-41cc708329c8" name="PackageVisibility" value="internal">
+                        <elementDefinition Id="0704c83b-037c-4d44-8746-17a5655fc351" />
+                      </propertyInstance>
+                      <elementDefinition Id="36a9928f-59fe-40ef-8d92-fdae90df60ea" />
+                    </stereotypeInstanceHasPropertyInstances>
+                  </propertyInstances>
+                </stereotypeInstance>
+              </appliedStereotypesInternal>
+              <elementDefinition Id="3c888996-50db-4ef3-98d4-d2a148d3f667" />
+              <ownedOperations>
+                <operation Id="c68cddd0-cde7-4640-b5b2-ab3a057ebcb6" name="Run" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+                  <referencesInternal>
+                    <reference Id="817332ef-6e2a-4b62-8205-2edb186439c3" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIPipeline Member%3DRun" tag="ViewCode">
+                      <elementDefinition Id="842eb603-49a2-47c2-8cb4-a4edbd1dae2e" />
+                    </reference>
+                  </referencesInternal>
+                  <appliedStereotypesInternal>
+                    <stereotypeInstance Id="94b69461-445e-4040-84d7-11fce24a7040" name="method" profile="CSharpProfile">
+                      <elementDefinition Id="440282fc-374a-46ce-a2a2-97bc70b9ae4f" />
+                      <propertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="a124eda2-0587-4f4c-9c1c-9fcd025b0125">
+                          <propertyInstance Id="881c195e-75a4-49eb-bdda-72fc1113bdc2" name="ClrAttributes">
+                            <elementDefinition Id="f03674a7-50d4-4d6e-8ad1-a2031e0dadce" />
+                          </propertyInstance>
+                          <elementDefinition Id="af12cd3a-f09c-489d-9762-482cf2e87c87" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="b9277354-b990-4e6d-a7a0-dda1b420c7bf">
+                          <propertyInstance Id="5194d07f-c179-4e04-87ed-4a0dbadb7bd6" name="IsPartial" value="false">
+                            <elementDefinition Id="526dd19f-43fa-4e71-a86d-ac93f836a0d3" />
+                          </propertyInstance>
+                          <elementDefinition Id="75622889-09ee-4b1b-adff-8d6f8a44e1b9" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="d89eb062-f0d7-4e48-b173-569ae285a472">
+                          <propertyInstance Id="d511278b-0b4e-4e9a-960d-1cddb7592290" name="IsUnsafe" value="false">
+                            <elementDefinition Id="fef76d91-4f6c-41fe-8cfe-374ad47c9bb0" />
+                          </propertyInstance>
+                          <elementDefinition Id="8efeba51-feeb-4b8f-9cfe-34ac98aa9cac" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="f3c088f4-7d49-4f30-b587-8a8eac03ea88">
+                          <propertyInstance Id="7aab6f75-5dba-4c58-a726-a8375a519fa7" name="Inheritance" value="none">
+                            <elementDefinition Id="8efce846-8401-4cfe-a87b-85073a036684" />
+                          </propertyInstance>
+                          <elementDefinition Id="c8b6b9f6-1444-46ec-bf28-fd108a663a35" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="890a844a-8777-4712-af3c-8c3d85b6090c">
+                          <propertyInstance Id="08805a93-1828-471d-87e7-12b39953cf42" name="PackageVisibility" value="internal">
+                            <elementDefinition Id="3cb308be-3030-4c72-8ed9-224f6c8501a7" />
+                          </propertyInstance>
+                          <elementDefinition Id="f6ecb1e0-35d5-405f-a2d9-1602f620dafb" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="f09a36cd-74bb-477c-a2be-3ae95828a184">
+                          <propertyInstance Id="2b13312f-a8fd-468a-9815-32b1c810aeaf" name="params" value="false">
+                            <elementDefinition Id="3bad61ec-6900-4da1-8cc4-d10156f95cc9" />
+                          </propertyInstance>
+                          <elementDefinition Id="d5daa553-ae87-4f6a-ba74-0de399ddcc80" />
+                        </stereotypeInstanceHasPropertyInstances>
+                      </propertyInstances>
+                    </stereotypeInstance>
+                  </appliedStereotypesInternal>
+                  <elementDefinition Id="d07e4d0a-a1dd-49a2-9575-16f02153f515" />
+                </operation>
+              </ownedOperations>
+            </Interface>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="bad9b368-9f85-4b5c-a446-12751daab6ca" name="FilterInput" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <referencesInternal>
+                <reference Id="eb67fa5d-c4b0-490e-87e6-7ce8131017a8" handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DFilterInput" tag="ViewCode">
+                  <elementDefinition Id="331205ee-e0ef-470e-9c77-7d62e6b27f71" />
+                </reference>
+              </referencesInternal>
+              <appliedStereotypesInternal>
+                <stereotypeInstance Id="5504c2a6-48c8-4b9c-b4ca-64becc2db5c9" name="class" profile="CSharpProfile">
+                  <elementDefinition Id="44ab444b-c0a4-480b-8ac3-70db5c3d61aa" />
+                  <propertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="3c3dde75-cf7e-4c1c-982f-20ea7517ad9b">
+                      <propertyInstance Id="be9086df-6679-4406-8e6e-6f2859050847" name="ClrAttributes">
+                        <elementDefinition Id="54adc27c-405b-48fc-8905-6660d8186533" />
+                      </propertyInstance>
+                      <elementDefinition Id="c1da35cd-14b1-4692-bd84-79fd6fa93605" />
+                    </stereotypeInstanceHasPropertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="2a82ab62-0c70-41d3-9f83-f29ad299de71">
+                      <propertyInstance Id="3ef5eaca-0d63-44f2-83b5-51727990adeb" name="IsPartial" value="false">
+                        <elementDefinition Id="0b89a822-4f69-49fe-a92e-d41366ebae9d" />
+                      </propertyInstance>
+                      <elementDefinition Id="adb1194b-c39c-40a1-b53f-e5f255e82157" />
+                    </stereotypeInstanceHasPropertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="bb579635-9496-4d2f-ac19-30e357b1da45">
+                      <propertyInstance Id="4fdc3c8a-f683-4d44-988f-daca4273488e" name="IsStatic" value="False">
+                        <elementDefinition Id="9d586f82-4d63-429c-a2ab-5d30a6b0297c" />
+                      </propertyInstance>
+                      <elementDefinition Id="ee5e052e-fa89-457a-a430-77f03a4ae909" />
+                    </stereotypeInstanceHasPropertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="7bac396f-79d7-43d9-9c59-7ec61956d806">
+                      <propertyInstance Id="b7f32ca6-f983-4819-ad07-abaad4712765" name="IsUnsafe" value="false">
+                        <elementDefinition Id="5b925dad-bac5-4d3b-8920-b2b8f9f1025c" />
+                      </propertyInstance>
+                      <elementDefinition Id="4541edb4-c2eb-42b0-91b5-f1dcbdcbae38" />
+                    </stereotypeInstanceHasPropertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="70010da3-a41e-4bc6-8980-1c8ddd6b200e">
+                      <propertyInstance Id="10cc7a7b-1d76-453b-9811-ef134f0014d2" name="PackageVisibility" value="internal">
+                        <elementDefinition Id="214be432-1758-4068-af41-3adf10da8b6d" />
+                      </propertyInstance>
+                      <elementDefinition Id="7d2e3d8f-fc39-496f-a1cd-648e452d98d6" />
+                    </stereotypeInstanceHasPropertyInstances>
+                  </propertyInstances>
+                </stereotypeInstance>
+              </appliedStereotypesInternal>
+              <elementDefinition Id="ed17e89e-a7cc-4b64-9b5f-154b39478fc7" />
+              <suppliersInternal>
+                <interfaceRealization Id="f08f0e27-54c3-48df-9986-92a0ba2cf91f">
+                  <interfaceMoniker Id="e1a7b773-1452-419b-9661-67e0e3707dd8" LastKnownName="IFilterInput" />
+                  <elementDefinition Id="c451bb40-5418-4695-8286-35bc91efda75" />
+                </interfaceRealization>
+              </suppliersInternal>
+              <ownedAttributesInternal>
+                <property Id="9e1ec114-b7ac-46b3-a3a1-528785eb1754" name="Value" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <referencesInternal>
+                    <reference Id="7fed88e9-73c6-481c-afa5-808824a216de" handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DFilterInput Member%3DValue" tag="ViewCode">
+                      <elementDefinition Id="7fca9fb4-ee94-4afd-9062-7b7bfcb0734d" />
+                    </reference>
+                  </referencesInternal>
+                  <appliedStereotypesInternal>
+                    <stereotypeInstance Id="495e62e0-1f41-4387-b37f-4150608cb9c1" name="property" profile="CSharpProfile">
+                      <elementDefinition Id="768fad9e-72e3-4d5c-ab7b-2eaea4ddd569" />
+                      <propertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="c2344751-4c55-405d-a476-d7e4ed8c27f3">
+                          <propertyInstance Id="7cc05b7e-b3c0-405f-a4a9-5538cc708db4" name="ClrAttributes">
+                            <elementDefinition Id="506cfdbb-1fe6-45dc-b11b-3e82b7db2a33" />
+                          </propertyInstance>
+                          <elementDefinition Id="a5fc5846-a703-4acf-a253-989e1e762d9c" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="e8106b62-9b79-4bbe-8431-cb5e9f725ca4">
+                          <propertyInstance Id="9536c2c3-aa2b-47a2-bfb2-9ac2380c699f" name="Get" value="public">
+                            <elementDefinition Id="f290132d-f456-4390-9b4d-2e84950860c0" />
+                          </propertyInstance>
+                          <elementDefinition Id="c9d5aef2-7cdb-4746-b584-58753e609994" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="396c0deb-a7f1-4d96-a473-5b216afe8bbe">
+                          <propertyInstance Id="612f0772-7241-4e91-a28e-2ed1c4294b76" name="HasBody" value="false">
+                            <elementDefinition Id="bd95ce86-d261-4d2f-9a40-da1bc4bc1c55" />
+                          </propertyInstance>
+                          <elementDefinition Id="a2aee538-0e64-40dd-baa9-fde51528d713" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="48eb52dc-c4a2-4950-ad72-f5e511bfaf14">
+                          <propertyInstance Id="1d0f448a-598a-4705-a528-64b8ea1aa7f0" name="IsUnsafe" value="false">
+                            <elementDefinition Id="36e5d707-00aa-43e2-80e3-6703ec063e9d" />
+                          </propertyInstance>
+                          <elementDefinition Id="f085f546-d95e-4feb-bd4f-2607941799b1" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="082b14b4-3fce-4b71-8bfd-6e54cc3352e2">
+                          <propertyInstance Id="42949ca4-01a0-4275-b791-9d4ff84ec473" name="Inheritance" value="none">
+                            <elementDefinition Id="f9ef0d36-9b18-4a2f-aee3-435e0132c02c" />
+                          </propertyInstance>
+                          <elementDefinition Id="87de11ab-e42b-460f-9178-dc520949b35c" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="14c43f2e-c50f-4333-a297-7e290880b22b">
+                          <propertyInstance Id="cb4069b1-3c4a-4702-979c-139bce137995" name="PackageVisibility" value="internal">
+                            <elementDefinition Id="4e302db7-e539-48dd-9409-3e9bfcaeeda6" />
+                          </propertyInstance>
+                          <elementDefinition Id="dac742de-cbfa-425b-90a9-8932f2851648" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="e020a757-9f4b-40fd-9f4c-bc91595880ed">
+                          <propertyInstance Id="c8a16ef9-f52a-4241-9bfe-dcd48d5bfb89" name="Set" value="public">
+                            <elementDefinition Id="d14964f4-d617-43c4-839e-ebe6768cb6bc" />
+                          </propertyInstance>
+                          <elementDefinition Id="f0b464ab-aaee-4841-a8fa-52e410c2bad9" />
+                        </stereotypeInstanceHasPropertyInstances>
+                      </propertyInstances>
+                    </stereotypeInstance>
+                  </appliedStereotypesInternal>
+                  <elementDefinition Id="91e11264-0668-4e0c-9371-07a89501543f" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="cf026586-c513-4332-b0dc-25cd33cbb503" LastKnownName="Object" />
+                  </type_NamedElement>
+                </property>
+              </ownedAttributesInternal>
+              <ownedOperationsInternal>
+                <operation Id="c68d3cb7-e906-4f47-8ce3-7a6f54d61bb4" name="FilterInput" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <referencesInternal>
+                    <reference Id="3a867542-cfb3-44c2-9b47-2104d8c8d2f9" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DFilterInput Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)])" tag="ViewCode">
+                      <elementDefinition Id="f1659b7d-7437-4907-9210-231fc2a2f10d" />
+                    </reference>
+                  </referencesInternal>
+                  <appliedStereotypesInternal>
+                    <stereotypeInstance Id="401126a5-0bdc-450e-a8e1-a518ef103765" name="method" profile="CSharpProfile">
+                      <elementDefinition Id="d3fab7d2-cf04-48fc-931f-8b05dea1d52c" />
+                      <propertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="03bae3d2-2799-4008-b5b8-1cae758fc510">
+                          <propertyInstance Id="a2994059-f656-4af6-ba48-e912cd0b93ea" name="ClrAttributes">
+                            <elementDefinition Id="76b51e08-3e34-4371-8883-079c1dc5c01c" />
+                          </propertyInstance>
+                          <elementDefinition Id="3d574490-88cd-412c-8895-d189ef88ac21" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="2eac00e8-c52d-4807-8644-0c5b7b48aa77">
+                          <propertyInstance Id="2bb82e8e-ddd1-44ce-83ef-5f6c9b8e11b2" name="IsPartial" value="false">
+                            <elementDefinition Id="ad9a665b-e5c4-4b19-a9da-15b860dbdd36" />
+                          </propertyInstance>
+                          <elementDefinition Id="cc7b2e54-c9bb-41d3-b95c-51278bc6c76b" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="aaedcdf3-381d-4665-8614-2f35982462cb">
+                          <propertyInstance Id="acab9b68-2490-4367-a691-05ca8d2c2cb3" name="IsUnsafe" value="false">
+                            <elementDefinition Id="5f697802-17c6-4eaf-98f3-2372d26a655b" />
+                          </propertyInstance>
+                          <elementDefinition Id="915535d8-5786-4c6d-aa91-531cacd59a4c" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="d0650eb5-bb63-4744-b103-7eb4c23ffb84">
+                          <propertyInstance Id="237b00f5-0dc7-489b-b40d-02041f0b9d29" name="Inheritance" value="none">
+                            <elementDefinition Id="bfc04dda-e402-40ec-8a3d-cd40d93c7f33" />
+                          </propertyInstance>
+                          <elementDefinition Id="7af2565d-f109-44f4-b0fa-9c72421667c8" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="5dddaac9-039f-4a30-b15f-2d206bd32d1a">
+                          <propertyInstance Id="1c71bbca-1b57-4d82-bb37-5293bbf63d2c" name="PackageVisibility" value="internal">
+                            <elementDefinition Id="2dca8062-3568-466a-a122-5dcfb3e12666" />
+                          </propertyInstance>
+                          <elementDefinition Id="947ca1fc-7e76-424d-9c64-bea93e009d8d" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="17813dc5-c783-47ad-8f06-a7f51780e297">
+                          <propertyInstance Id="9e7568e3-df2a-4468-843c-857397d9f7ad" name="params" value="false">
+                            <elementDefinition Id="5b5994f7-729a-480b-8969-5fd2e8651079" />
+                          </propertyInstance>
+                          <elementDefinition Id="98835f2b-e963-4cba-8672-d5c94d1936fb" />
+                        </stereotypeInstanceHasPropertyInstances>
+                      </propertyInstances>
+                    </stereotypeInstance>
+                  </appliedStereotypesInternal>
+                  <elementDefinition Id="603d06b3-2414-4186-b86d-14a016e5fd7a" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="b2b5c46b-a71a-4d61-9aa6-819b82eb92c8" name="value" direction="In">
+                        <referencesInternal>
+                          <reference Id="6fed5d61-03da-4ad1-9cdd-89ef78abe2e5" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DFilterInput Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]) ParameterIdentifier%3Dvalue" tag="ViewCode">
+                            <elementDefinition Id="c3871374-71bd-44e0-a865-d580e28eb8a9" />
+                          </reference>
+                        </referencesInternal>
+                        <elementDefinition Id="12ee5e43-abbd-4656-9a22-297adb5c09a3" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="cf026586-c513-4332-b0dc-25cd33cbb503" LastKnownName="Object" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="7a242257-764a-455c-9324-37157e28009b" name="Pipeline" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <referencesInternal>
+                <reference Id="a9d80f95-900c-4513-8974-75946bf80987" handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DPipeline" tag="ViewCode">
+                  <elementDefinition Id="3132bb85-d39b-49ec-b443-65cf5b5b7722" />
+                </reference>
+              </referencesInternal>
+              <appliedStereotypesInternal>
+                <stereotypeInstance Id="c88956e0-a14d-431b-b628-22cb7b8ca6fd" name="class" profile="CSharpProfile">
+                  <elementDefinition Id="78b451d3-829d-4e3b-a235-1705d95aa512" />
+                  <propertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="d890e693-6981-423c-9bcb-944505d76630">
+                      <propertyInstance Id="783ea6ef-2939-4d95-9931-1b48d1dc6fcc" name="ClrAttributes">
+                        <elementDefinition Id="84b1419a-b66b-4d8e-b5d9-570c06b677ad" />
+                      </propertyInstance>
+                      <elementDefinition Id="e149072c-56b7-40b8-9fb6-62c612b6faa9" />
+                    </stereotypeInstanceHasPropertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="140ad50e-5c53-4ec1-a1f4-dafa746ed624">
+                      <propertyInstance Id="4db32f80-2b4d-4a9d-b97e-9f3ea740090b" name="IsPartial" value="false">
+                        <elementDefinition Id="44335296-66da-42ff-bcad-d30ab6807929" />
+                      </propertyInstance>
+                      <elementDefinition Id="e5137d99-9a4d-4c66-a036-0ee7b2e6ddbb" />
+                    </stereotypeInstanceHasPropertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="b7bd053f-1737-4ce1-b4aa-2e610e9a2f6a">
+                      <propertyInstance Id="4d0f473d-7dab-4745-997e-c719568046d1" name="IsStatic" value="False">
+                        <elementDefinition Id="4d57a5ae-000b-476a-b837-b0b3a0bf4202" />
+                      </propertyInstance>
+                      <elementDefinition Id="880ea49a-f588-4485-8ada-21747b8e908c" />
+                    </stereotypeInstanceHasPropertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="a700f602-6539-4c2a-941f-bc1d81ed938e">
+                      <propertyInstance Id="6e3b2277-3604-4dab-a39e-8cdc1d5d3caa" name="IsUnsafe" value="false">
+                        <elementDefinition Id="76dfdad9-b873-4198-be39-d1f50f33c470" />
+                      </propertyInstance>
+                      <elementDefinition Id="18020e90-f4ca-4fa0-80bd-1c3ac879b9b1" />
+                    </stereotypeInstanceHasPropertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="e0d05d65-8ead-4778-a11f-694a4ba036eb">
+                      <propertyInstance Id="9bca618c-7e86-4c6d-8280-f4ac0d3790b4" name="PackageVisibility" value="internal">
+                        <elementDefinition Id="a1b247e7-23a5-43fa-805f-98c8cb3a7d31" />
+                      </propertyInstance>
+                      <elementDefinition Id="b2f04871-890a-4313-922e-597af5aeb226" />
+                    </stereotypeInstanceHasPropertyInstances>
+                  </propertyInstances>
+                </stereotypeInstance>
+              </appliedStereotypesInternal>
+              <elementDefinition Id="4b1595a0-68bd-4004-b81f-0425f13b527c" />
+              <suppliersInternal>
+                <interfaceRealization Id="6b9f4a8c-e98a-4633-a9b8-d7284362afc8">
+                  <interfaceMoniker Id="05ca2dcd-4c9c-45ea-b397-edd9d4fd8635" LastKnownName="IPipeline" />
+                  <elementDefinition Id="0ab8cfa8-568e-4322-a5d6-41879021081a" />
+                </interfaceRealization>
+              </suppliersInternal>
+              <ownedAttributesInternal>
+                <property Id="9143f097-9e9b-4fb5-b3e8-28ae6fe81d0f" name="Jobs" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <referencesInternal>
+                    <reference Id="d8e774a5-1ca5-4f9f-a33e-aa79a3e347ae" handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DPipeline Member%3DJobs" tag="ViewCode">
+                      <elementDefinition Id="5291ca51-e1ac-4912-90d7-f8f34192790b" />
+                    </reference>
+                  </referencesInternal>
+                  <appliedStereotypesInternal>
+                    <stereotypeInstance Id="b8564bf7-1882-404d-aa9b-e27c53691039" name="property" profile="CSharpProfile">
+                      <elementDefinition Id="ddb0f8bd-f16b-4ac8-8904-f4dbf21b0ff9" />
+                      <propertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="95f74693-4487-4c3d-a9cf-90c0514ed1bc">
+                          <propertyInstance Id="10c618a9-a360-49b2-8e03-d9a8bb2e6af1" name="ClrAttributes">
+                            <elementDefinition Id="b8bc7c10-ae3a-4833-8843-6a5093df5f3f" />
+                          </propertyInstance>
+                          <elementDefinition Id="e94eba3c-0aba-4ca4-bc72-d4221f617950" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="b131ad7c-a53e-4219-8c48-2548f4c1c40e">
+                          <propertyInstance Id="b38097dd-bced-4081-a65f-1a3f2d5c9bc0" name="Get" value="private">
+                            <elementDefinition Id="622ed7e1-87a4-4e57-b111-7c0aa4c6eac2" />
+                          </propertyInstance>
+                          <elementDefinition Id="ffdbfbeb-c3ef-4d93-b121-0fc2b148eb3c" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="2fe91f63-1587-4870-9624-a3c839d240f5">
+                          <propertyInstance Id="d6886099-9f19-4443-bda3-6b35e858ecb9" name="HasBody" value="false">
+                            <elementDefinition Id="7867779c-1930-4860-8acc-d9e02478159e" />
+                          </propertyInstance>
+                          <elementDefinition Id="81a8c28e-ab96-49f8-afe9-45e9599ff464" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="d3f91074-2e79-4c4c-bd9b-009ba8d94745">
+                          <propertyInstance Id="8e5cd8f4-1776-44a7-af00-dc7d3f0cdc24" name="IsUnsafe" value="false">
+                            <elementDefinition Id="f7ab619a-2a15-42ff-bee3-1bef73150e58" />
+                          </propertyInstance>
+                          <elementDefinition Id="cf87e77e-db35-4510-8b2c-7a567e5d4ff4" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="f506a1d8-0402-42ca-9cae-24ffd0cc358a">
+                          <propertyInstance Id="2b532941-b41a-4373-8cff-6dce8bfc4ea0" name="Inheritance" value="none">
+                            <elementDefinition Id="5fe6cdbe-2340-471d-b181-a8c74adee13e" />
+                          </propertyInstance>
+                          <elementDefinition Id="6083467c-cd61-4caa-a7c7-f07b9dd1c6cf" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="189b43d9-ebf1-4a81-8217-056b5af6979e">
+                          <propertyInstance Id="a716a71b-735d-4a9b-900a-91bed1b5a903" name="PackageVisibility" value="internal">
+                            <elementDefinition Id="840b6fdd-453f-4f4c-aab1-1bf62e268e68" />
+                          </propertyInstance>
+                          <elementDefinition Id="fdcbc59f-003e-40f7-906b-c344af5a09bd" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="20c3a0ff-ab04-4977-a583-e1cf517db673">
+                          <propertyInstance Id="0b05a23e-b471-4daf-a515-91e169acb5d1" name="Set" value="private">
+                            <elementDefinition Id="05f3713c-2a91-4955-acec-264ee0a3d936" />
+                          </propertyInstance>
+                          <elementDefinition Id="78259203-fb75-4005-94e5-c16e18f0e8c8" />
+                        </stereotypeInstanceHasPropertyInstances>
+                      </propertyInstances>
+                    </stereotypeInstance>
+                  </appliedStereotypesInternal>
+                  <elementDefinition Id="4dfb982a-995f-4db1-bf20-5e917d3ec147" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="924eb9e5-df29-41c3-a1c3-13f13387ca78" LastKnownName="Queue&lt;Pipe‎&gt;" />
+                  </type_NamedElement>
+                </property>
+                <property Id="5c0649fc-6575-4c3f-adc2-53235ec104ee" name="Input" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <referencesInternal>
+                    <reference Id="96164f26-d144-42ad-a35d-fc946363b161" handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DPipeline Member%3DInput" tag="ViewCode">
+                      <elementDefinition Id="510526a6-d231-4257-a84d-cfc5014db0e5" />
+                    </reference>
+                  </referencesInternal>
+                  <appliedStereotypesInternal>
+                    <stereotypeInstance Id="4029e58b-5ca0-4f23-9eb0-f32a8bb1dccc" name="property" profile="CSharpProfile">
+                      <elementDefinition Id="9e7aebed-2b8e-4fc1-b22d-c620f08ff657" />
+                      <propertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="859c8c6e-a178-4a19-b320-9c4d4e038ede">
+                          <propertyInstance Id="8095e5e6-b94d-4471-91cb-ba3ca5c39bb1" name="ClrAttributes">
+                            <elementDefinition Id="4fb1be90-ff50-49a8-bd42-f9c803f5d956" />
+                          </propertyInstance>
+                          <elementDefinition Id="aea0e065-cc54-4f8d-b7c4-4d90bffe0ec4" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="7c5ce96e-2867-4d63-8270-0877524fc3d7">
+                          <propertyInstance Id="ff88e96d-645e-4bec-b0bf-5b35a14a05e7" name="Get" value="private">
+                            <elementDefinition Id="3d893f45-8001-4577-8f03-5ef2ba0af44a" />
+                          </propertyInstance>
+                          <elementDefinition Id="f60910ee-5555-4a1a-adb6-66fcf281cc2f" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="a3379720-5312-4c15-9a8b-fbef5c3b8c6f">
+                          <propertyInstance Id="b985ac54-9dc4-422e-b3ae-2c01c7de9183" name="HasBody" value="false">
+                            <elementDefinition Id="ce18cf5e-6917-45c5-9286-4ecb8a5e374a" />
+                          </propertyInstance>
+                          <elementDefinition Id="1283872a-c08e-4240-8bfb-923cbaa7de72" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="f7a7532c-a1c8-47bb-9780-5050e245ad56">
+                          <propertyInstance Id="18bc2114-1b54-4b20-8326-5d74d402a957" name="IsUnsafe" value="false">
+                            <elementDefinition Id="4d247a20-267c-4fc9-8df6-cb01a54975f7" />
+                          </propertyInstance>
+                          <elementDefinition Id="ee925bf7-c93a-4faa-b72b-df02f0bdfdbe" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="6b9f4cbe-0452-47e3-aad3-7a37562e4f06">
+                          <propertyInstance Id="2f6d6cf7-8c16-4e9e-81d7-7c0dc0f1f491" name="Inheritance" value="none">
+                            <elementDefinition Id="88e7c195-9972-47ea-8b1a-33364b7ec3b9" />
+                          </propertyInstance>
+                          <elementDefinition Id="7fb3a0ee-4178-413a-b727-270d14efefe0" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="9fea7513-81f5-495e-b486-2cec144b8d4e">
+                          <propertyInstance Id="630f9666-28b6-4414-bac2-34400489341d" name="PackageVisibility" value="internal">
+                            <elementDefinition Id="ba905358-06d8-4ee8-88d2-a02caa4ace58" />
+                          </propertyInstance>
+                          <elementDefinition Id="51b18ed9-5ac4-420e-b98b-b27dc33d709d" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="3c9d01b3-afb0-4cf2-bb36-29063779599d">
+                          <propertyInstance Id="2d6eee5d-fc8a-4570-9e08-fd6998da6480" name="Set" value="private">
+                            <elementDefinition Id="da65916c-1ba9-41fe-9fd2-b3e3eaaf8fb4" />
+                          </propertyInstance>
+                          <elementDefinition Id="fab2114a-0fec-49b5-aa37-fc0f25fc84ac" />
+                        </stereotypeInstanceHasPropertyInstances>
+                      </propertyInstances>
+                    </stereotypeInstance>
+                  </appliedStereotypesInternal>
+                  <elementDefinition Id="d5ed2387-c3a6-475f-b126-9d71983d6af8" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="670559c1-00e9-48ea-8a1a-9479d1d21790" LastKnownName="BlockingCollection&lt;IFilterInput‎&gt;" />
+                  </type_NamedElement>
+                </property>
+              </ownedAttributesInternal>
+              <ownedOperationsInternal>
+                <operation Id="5af6a5f0-8f0e-464d-821c-d8cb891c222f" name="Pipeline" visibility="Private" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <referencesInternal>
+                    <reference Id="26b314e6-aa99-41eb-9c4e-58fbfb8dffc8" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DPipeline Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilter)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Concurrent Type%3D(Name%3DBlockingCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Concurrent Type%3D(Name%3DBlockingCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)]))])" tag="ViewCode">
+                      <elementDefinition Id="c50d3499-ca2c-4d3c-bc97-05994472af70" />
+                    </reference>
+                  </referencesInternal>
+                  <appliedStereotypesInternal>
+                    <stereotypeInstance Id="f2785d99-c1c8-40d6-84bc-4c972c2677f3" name="method" profile="CSharpProfile">
+                      <elementDefinition Id="ab3b1104-2010-4ba3-aa18-dd234e444020" />
+                      <propertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="20255cd9-8bfc-48d3-846d-5594e909ed0d">
+                          <propertyInstance Id="ce5c2b99-5a0f-40b5-991c-553e9054d10d" name="ClrAttributes">
+                            <elementDefinition Id="2bb5602e-9b4c-4c1e-a711-870bcf0c13e7" />
+                          </propertyInstance>
+                          <elementDefinition Id="88b6c606-47a5-4f36-b9a7-c1bf7a2ec3a5" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="87cf88aa-91d3-4e57-a597-54320363f468">
+                          <propertyInstance Id="d42c9b1d-e8c3-48b1-8df2-42d65f1b14df" name="IsPartial" value="false">
+                            <elementDefinition Id="a2e24fa9-76ff-40e6-9c08-c439d0c5be7b" />
+                          </propertyInstance>
+                          <elementDefinition Id="4b151109-5ed5-4297-b1a8-37eced8ce2ad" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="e0b3d6aa-e535-4b10-8fc0-6b7b0184faec">
+                          <propertyInstance Id="aff32625-df51-469b-94d6-b28c8f5b0d9a" name="IsUnsafe" value="false">
+                            <elementDefinition Id="d17b688a-cd4d-480c-9672-431c9e7c0a99" />
+                          </propertyInstance>
+                          <elementDefinition Id="0becaa9b-8ab5-4a9f-b2c9-f87b964c61a9" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="7b503d46-48c6-47d2-a01a-fd74d4c9765a">
+                          <propertyInstance Id="22e173e2-224a-4eea-aeb0-cfaf44ed81bc" name="Inheritance" value="none">
+                            <elementDefinition Id="8ca25aee-f1f6-481e-abec-4f26a3b0b1ab" />
+                          </propertyInstance>
+                          <elementDefinition Id="af59c9e9-a35e-42cf-ae68-b56aa4becfe6" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="b6130c19-76c1-4b13-b1b9-b80d315fe952">
+                          <propertyInstance Id="2477253b-4764-403c-8784-6def9880801e" name="PackageVisibility" value="internal">
+                            <elementDefinition Id="30fb0ad9-0c40-4af5-a41f-2042f1d1cebb" />
+                          </propertyInstance>
+                          <elementDefinition Id="a354d7a9-e910-4cf9-b7ab-559c4516b874" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="cb2445bf-e888-4ce8-83bb-4d3c75398dca">
+                          <propertyInstance Id="1740f68c-c6cc-4c35-b3c7-d645238f9d43" name="params" value="false">
+                            <elementDefinition Id="43255f22-f773-4862-bd32-306e6cf33650" />
+                          </propertyInstance>
+                          <elementDefinition Id="bd1e6556-ec55-4cea-b5c3-c4f21478aa6b" />
+                        </stereotypeInstanceHasPropertyInstances>
+                      </propertyInstances>
+                    </stereotypeInstance>
+                  </appliedStereotypesInternal>
+                  <elementDefinition Id="264e6ded-7269-4c08-ba62-c6a3483cf2a5" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="61b74b23-2728-4ce6-8b2b-1681be523ed2" name="filter" direction="In">
+                        <referencesInternal>
+                          <reference Id="60698453-9e46-4093-b95a-17126a427851" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DPipeline Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilter)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Concurrent Type%3D(Name%3DBlockingCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Concurrent Type%3D(Name%3DBlockingCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)]))]) ParameterIdentifier%3Dfilter" tag="ViewCode">
+                            <elementDefinition Id="d3b5541c-7c74-4f3a-9322-17af0c57d50a" />
+                          </reference>
+                        </referencesInternal>
+                        <elementDefinition Id="7dac739b-c71e-45fc-b4dd-1001ad4024f6" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="24ad10f0-f807-443a-ad15-fe8e01c2c321" LastKnownName="IFilter" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="e050ab60-6b7b-4c48-9ac2-3042eefc4c0d" name="input" direction="In">
+                        <referencesInternal>
+                          <reference Id="d636cf7c-3ff1-4fa4-92e2-619d6decbb33" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DPipeline Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilter)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Concurrent Type%3D(Name%3DBlockingCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Concurrent Type%3D(Name%3DBlockingCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)]))]) ParameterIdentifier%3Dinput" tag="ViewCode">
+                            <elementDefinition Id="c5fe55bf-4f3b-467c-8e84-c01e9b58a715" />
+                          </reference>
+                        </referencesInternal>
+                        <elementDefinition Id="07cd24e9-1811-4913-96e7-903bf51f8c23" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="670559c1-00e9-48ea-8a1a-9479d1d21790" LastKnownName="BlockingCollection&lt;IFilterInput‎&gt;" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="3332b85b-33a1-4c56-a70e-8000ac7a9704" name="firstOutput" direction="In">
+                        <referencesInternal>
+                          <reference Id="2a812b4f-d999-492e-9dcb-787aaa7004fe" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DPipeline Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilter)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Concurrent Type%3D(Name%3DBlockingCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Concurrent Type%3D(Name%3DBlockingCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)]))]) ParameterIdentifier%3DfirstOutput" tag="ViewCode">
+                            <elementDefinition Id="864ce6a9-d5d6-4a27-9439-6c5da24b42e6" />
+                          </reference>
+                        </referencesInternal>
+                        <elementDefinition Id="1bb60520-6a88-4e3c-9aea-3bfe4a529b06" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="670559c1-00e9-48ea-8a1a-9479d1d21790" LastKnownName="BlockingCollection&lt;IFilterInput‎&gt;" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="8d94c5b3-b64c-49e3-b4d5-a1435cb4635f" name="StartNew" isLeaf="false" isStatic="true" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <referencesInternal>
+                    <reference Id="7692df91-7455-43d4-aec4-60d58ce9ec64" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DPipeline Member%3D(Name%3DStartNew OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilter)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])" tag="ViewCode">
+                      <elementDefinition Id="54ab5b14-9f05-4dfb-9706-450378533ca4" />
+                    </reference>
+                  </referencesInternal>
+                  <appliedStereotypesInternal>
+                    <stereotypeInstance Id="7dd4d46c-d750-4661-83bf-97ee5703f6e9" name="method" profile="CSharpProfile">
+                      <elementDefinition Id="10679f94-dca4-40e5-bf58-8bc4ef9002ed" />
+                      <propertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="ca63d17a-731a-42d9-9470-8e8d07303285">
+                          <propertyInstance Id="656ee835-31ce-4831-a95d-aa7b9203043c" name="ClrAttributes">
+                            <elementDefinition Id="10bc4543-7dab-42ad-8bbe-c49d6c266b6c" />
+                          </propertyInstance>
+                          <elementDefinition Id="8bb69f90-304b-4084-8cdc-d58ca364cb01" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="d7847bd5-bb45-4394-8256-859bb0a5f6b6">
+                          <propertyInstance Id="5b5a42f3-c6e0-4eb7-b68e-8c656f9edc3f" name="IsPartial" value="false">
+                            <elementDefinition Id="7a81a738-bc11-4769-90a9-24acabdbfc55" />
+                          </propertyInstance>
+                          <elementDefinition Id="9111fe82-8d9e-4f67-81fc-8a794f0f4c6f" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="9c9b5ee7-1227-4af0-9604-291df151ff43">
+                          <propertyInstance Id="5b168b23-8418-4f0f-b6fd-2c9e437ffe03" name="IsUnsafe" value="false">
+                            <elementDefinition Id="a50d504c-0bcf-40ea-bd1a-b442c4be27d9" />
+                          </propertyInstance>
+                          <elementDefinition Id="8da7d15f-6f9b-4009-9bf6-7720f675e8e3" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="eab67639-26f1-40e0-b561-e08e4cfe7e27">
+                          <propertyInstance Id="7b4ce770-59c4-4d1b-a490-f0d67cb18ab5" name="Inheritance" value="none">
+                            <elementDefinition Id="5da83ff9-8ab5-49f4-addc-bce193799910" />
+                          </propertyInstance>
+                          <elementDefinition Id="383b04ba-16dd-4d12-b6d7-14e743b0f9fc" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="1deee039-7121-46fe-b248-964d829f20d7">
+                          <propertyInstance Id="6434d1ac-5143-4862-8501-2cdda9b8eeef" name="PackageVisibility" value="internal">
+                            <elementDefinition Id="a7226c58-80a6-4b51-b004-ade4bcb25796" />
+                          </propertyInstance>
+                          <elementDefinition Id="e581cc32-1fe7-426d-8a45-482b9a7abbc8" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="2505fc9c-b88d-47bb-ae3f-b9858a511187">
+                          <propertyInstance Id="b475e7d6-a497-4754-922c-692888e267fa" name="params" value="false">
+                            <elementDefinition Id="2ec4e521-94e3-4976-b948-75cdb7e73a48" />
+                          </propertyInstance>
+                          <elementDefinition Id="4566758d-4a82-4020-9e1d-caf24fc18894" />
+                        </stereotypeInstanceHasPropertyInstances>
+                      </propertyInstances>
+                    </stereotypeInstance>
+                  </appliedStereotypesInternal>
+                  <elementDefinition Id="ce3f41d8-2984-423c-8bf9-67ba68549e9f" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="49e759c6-e1a8-4c26-a47e-18384fc56661" direction="Return">
+                        <elementDefinition Id="f08711fc-5a81-433a-9ecc-f3f094685d56" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="fe04147e-a727-46b7-9afa-704dec7773de" LastKnownName="Pipeline" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="851dcb8a-9c7f-4f10-8dab-1cb8af3be254" name="filter" direction="In">
+                        <referencesInternal>
+                          <reference Id="d698ec91-256f-4626-901f-df5344f8ba55" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DPipeline Member%3D(Name%3DStartNew OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilter)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dfilter" tag="ViewCode">
+                            <elementDefinition Id="222121cf-751b-42c9-a150-1892796209fb" />
+                          </reference>
+                        </referencesInternal>
+                        <elementDefinition Id="ea01afc2-812e-468b-945b-52f41f9b346d" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="24ad10f0-f807-443a-ad15-fe8e01c2c321" LastKnownName="IFilter" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="d32bf76a-8e7f-4cbb-a989-1dc54b156800" name="input" direction="In">
+                        <referencesInternal>
+                          <reference Id="0a9cfe23-d39b-4815-a7d4-da39b2787498" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DPipeline Member%3D(Name%3DStartNew OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilter)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dinput" tag="ViewCode">
+                            <elementDefinition Id="692eed16-625d-4d4e-990b-4584fd24b1a9" />
+                          </reference>
+                        </referencesInternal>
+                        <elementDefinition Id="ee754d6b-5162-4e3e-9ef8-284bf878e060" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="d3ffedb4-7254-46ed-be0f-75cbbb3ca35c" LastKnownName="IEnumerable&lt;Object‎&gt;" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="d029b561-131c-4087-bb98-f6cabbb4cec6" name="bufferSize" direction="In">
+                        <referencesInternal>
+                          <reference Id="b0dcbf2c-8882-42f4-9e94-bc664653755d" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DPipeline Member%3D(Name%3DStartNew OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilter)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DbufferSize" tag="ViewCode">
+                            <elementDefinition Id="5a25775a-3d04-4fb3-99eb-56f8509c22a1" />
+                          </reference>
+                        </referencesInternal>
+                        <elementDefinition Id="51cf50c7-aae7-4d10-8377-8e1e4ee0dc02" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="f3021dc8-4541-427a-bbfa-659fd65497f9" LastKnownName="Integer" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="8066aaf6-06cd-4120-aa76-575ad52609ea" name="Then" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <referencesInternal>
+                    <reference Id="cf382d8b-1217-4698-b552-52cb601210ca" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DPipeline Member%3D(Name%3DThen OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilter)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])" tag="ViewCode">
+                      <elementDefinition Id="c89c7f68-f6e5-426e-b1c2-8e6f75a43be3" />
+                    </reference>
+                  </referencesInternal>
+                  <appliedStereotypesInternal>
+                    <stereotypeInstance Id="ecff3b9d-7b8e-465b-ac5d-f5990f438048" name="method" profile="CSharpProfile">
+                      <elementDefinition Id="883f9b25-80c3-4fc4-9b7a-1c96d5ea1074" />
+                      <propertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="ecb2db3f-8d37-4df9-90ae-3bda071c1533">
+                          <propertyInstance Id="f07d807a-86d4-4ffb-9005-f94ea8c972ea" name="ClrAttributes">
+                            <elementDefinition Id="5d74d0c3-158a-4ef4-94df-408b6bd2f26c" />
+                          </propertyInstance>
+                          <elementDefinition Id="fa3ddfb3-bb50-475e-85b1-a0289ba19267" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="57a3aa61-3ecc-4eb0-a917-f36bd0ab54b3">
+                          <propertyInstance Id="5ee91e91-4c58-484c-ad4c-0d8a5df9687e" name="IsPartial" value="false">
+                            <elementDefinition Id="adb9ad48-8f1c-4f22-af15-e2f10bc8f8e7" />
+                          </propertyInstance>
+                          <elementDefinition Id="24f61ee2-9c1c-4e2f-8ca1-e670d677e7ab" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="d22d2dc5-dcdf-4c5a-8eeb-ac68a06825b7">
+                          <propertyInstance Id="172dd9e1-b234-4491-a6c5-30ab8e1bc0da" name="IsUnsafe" value="false">
+                            <elementDefinition Id="cb37c694-d34f-404b-bff9-7aefa48d6bc0" />
+                          </propertyInstance>
+                          <elementDefinition Id="6fd07fe8-53ee-4543-ab8d-9cf116edd3b8" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="dbfc95de-5bbf-4383-bdab-c633e5d47e92">
+                          <propertyInstance Id="96fc20b5-6c32-4d89-804b-b5a37fd31e9f" name="Inheritance" value="none">
+                            <elementDefinition Id="5290a83b-bb6d-407a-98aa-239c11c5aeb2" />
+                          </propertyInstance>
+                          <elementDefinition Id="e2a47029-0eeb-4800-a801-35668d4636f2" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="33040252-ec71-4c21-a19d-8e113199dfb6">
+                          <propertyInstance Id="272bb70d-1a44-4d9c-80f5-6054ac86c8d3" name="PackageVisibility" value="internal">
+                            <elementDefinition Id="d62c30fa-63b8-46a7-b310-3504ebbea0b4" />
+                          </propertyInstance>
+                          <elementDefinition Id="cbbed264-bd0a-4e81-b696-6c574ec08ca7" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="d633a28a-3d24-4a8d-bd50-f68695ceba72">
+                          <propertyInstance Id="29610141-1442-4658-870a-5ba3d1b29450" name="params" value="false">
+                            <elementDefinition Id="78feaffe-c229-46ff-ac88-f09c0bebefaf" />
+                          </propertyInstance>
+                          <elementDefinition Id="cfba7e23-9f4a-41a6-b85b-5d86d64879ae" />
+                        </stereotypeInstanceHasPropertyInstances>
+                      </propertyInstances>
+                    </stereotypeInstance>
+                  </appliedStereotypesInternal>
+                  <elementDefinition Id="7efb8dd0-3d76-4ae9-b88f-86c3a64667c5" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="803f769a-5768-415e-a572-798a5d40ebe2" direction="Return">
+                        <elementDefinition Id="c17e67a5-55f5-4edb-9906-29263aa5e051" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="fe04147e-a727-46b7-9afa-704dec7773de" LastKnownName="Pipeline" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="6a4220a8-dce2-4bf0-8b76-94735a2e29e8" name="filter" direction="In">
+                        <referencesInternal>
+                          <reference Id="03bd7c08-cb5a-4ec4-8005-45955b3f74d3" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DPipeline Member%3D(Name%3DThen OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilter)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dfilter" tag="ViewCode">
+                            <elementDefinition Id="79119754-e3d5-4525-b014-eb4397e3d2fb" />
+                          </reference>
+                        </referencesInternal>
+                        <elementDefinition Id="739b5680-bfe9-438b-8ce9-120a626f5faf" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="24ad10f0-f807-443a-ad15-fe8e01c2c321" LastKnownName="IFilter" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="eb89cbbe-ff17-473d-9357-1d4f554ab2b5" name="bufferSize" direction="In">
+                        <referencesInternal>
+                          <reference Id="68572536-990b-46f7-9dc1-c128c771abf2" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DPipeline Member%3D(Name%3DThen OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilter)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DbufferSize" tag="ViewCode">
+                            <elementDefinition Id="6859f001-507b-4398-80f7-f71d79251703" />
+                          </reference>
+                        </referencesInternal>
+                        <elementDefinition Id="554e5755-2abd-4ada-ad68-16254a1b40ce" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="f3021dc8-4541-427a-bbfa-659fd65497f9" LastKnownName="Integer" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="5c8920ba-86f0-43ca-9ee8-0fe78fa6d2e8" name="Run" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <referencesInternal>
+                    <reference Id="cb210402-5063-4102-901c-1808e5cae268" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DPipeline Member%3DRun" tag="ViewCode">
+                      <elementDefinition Id="79f647cb-72b3-4953-970d-019b6880ee09" />
+                    </reference>
+                  </referencesInternal>
+                  <appliedStereotypesInternal>
+                    <stereotypeInstance Id="0118da60-0684-4e29-88e4-7b957c21e4f9" name="method" profile="CSharpProfile">
+                      <elementDefinition Id="136ef7d4-96c6-4ac8-ac64-e496fe2a5132" />
+                      <propertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="ba817f4a-531e-43f7-924f-edbbca68545c">
+                          <propertyInstance Id="cd90dcb1-b8bf-4165-8dd3-80232caa38a8" name="ClrAttributes">
+                            <elementDefinition Id="7e2ee756-7c35-4510-a3ca-18f0e4f693e6" />
+                          </propertyInstance>
+                          <elementDefinition Id="29d4784a-00ce-440d-81aa-117305867caa" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="d183a61e-a771-4485-af14-23d6d09a4061">
+                          <propertyInstance Id="8dbb5924-6a7d-4035-88e3-f92a11a46ecc" name="IsPartial" value="false">
+                            <elementDefinition Id="6d35db6f-df7a-45e1-859b-40f0154f4575" />
+                          </propertyInstance>
+                          <elementDefinition Id="6fce2dc9-14b5-4e0d-8b79-219da15bb46b" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="c5559275-4151-4dc2-a515-9327c4107cc3">
+                          <propertyInstance Id="519b1db2-86ee-4b51-b91e-b9082c9ecdf1" name="IsUnsafe" value="false">
+                            <elementDefinition Id="6a6febdb-d86b-4e70-9630-46dc2585b631" />
+                          </propertyInstance>
+                          <elementDefinition Id="84af5fad-d47e-4b63-af9e-daa46c1dcd54" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="725f581d-d84e-4c6b-81f3-0a4da4c47089">
+                          <propertyInstance Id="5f2e9c02-10be-408c-abde-6f85d38b8aa2" name="Inheritance" value="none">
+                            <elementDefinition Id="a4a9a21e-c61c-4903-939f-0a38676dfd9a" />
+                          </propertyInstance>
+                          <elementDefinition Id="5df88713-9c8a-4e49-8f5b-d7fb1c8eb7d8" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="fd64a284-c94f-482b-a89f-b825d869b3a9">
+                          <propertyInstance Id="e0b2bd1c-517f-4d77-9dad-c1718e113c48" name="PackageVisibility" value="internal">
+                            <elementDefinition Id="c2398451-6b9f-4214-bf39-0af278ab633d" />
+                          </propertyInstance>
+                          <elementDefinition Id="86b1946c-e6cb-4f94-8ac2-5faa6babdbc0" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="bf5ba17f-fadb-4328-825a-e09fc6b0e67c">
+                          <propertyInstance Id="b46c8d18-2edc-4f6f-8018-70d7e684646f" name="params" value="false">
+                            <elementDefinition Id="7b52472d-32f4-4d59-8519-7929e83f7093" />
+                          </propertyInstance>
+                          <elementDefinition Id="b00bf910-9208-4052-a045-61eee52a8e62" />
+                        </stereotypeInstanceHasPropertyInstances>
+                      </propertyInstances>
+                    </stereotypeInstance>
+                  </appliedStereotypesInternal>
+                  <elementDefinition Id="ce987ba9-e41f-44cd-9501-cc2758a74997" />
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="8fef3ca7-10b1-4fff-965f-b4287eb4c3b8" name="Pipe" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <referencesInternal>
+                <reference Id="cd9c9416-7d97-4b71-8793-a32426f275d4" handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DPipe" tag="ViewCode">
+                  <elementDefinition Id="e4d2435c-c8b8-455b-9b1a-7084e02436a7" />
+                </reference>
+              </referencesInternal>
+              <appliedStereotypesInternal>
+                <stereotypeInstance Id="9e2b7c88-59bf-420c-bc8b-ef9d106740e1" name="class" profile="CSharpProfile">
+                  <elementDefinition Id="3dda90a8-41df-416e-9c49-87be42f6eda1" />
+                  <propertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="cda19483-0bda-4f28-8c5c-25ca6b734680">
+                      <propertyInstance Id="7e11d9ce-eb1d-4c40-967f-e5973fed29a6" name="ClrAttributes">
+                        <elementDefinition Id="acda52d3-1d5d-4385-a114-83fe5d092e48" />
+                      </propertyInstance>
+                      <elementDefinition Id="d4d58a04-bdd8-4041-84fc-2fe3328aa0cf" />
+                    </stereotypeInstanceHasPropertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="495fa805-98d8-439a-8a52-d9885747ef15">
+                      <propertyInstance Id="9a9c6524-95e7-4665-9e18-1d14726730db" name="IsPartial" value="false">
+                        <elementDefinition Id="cc12c3ab-79de-46e3-acfd-8edca90a579b" />
+                      </propertyInstance>
+                      <elementDefinition Id="473146c0-2066-4b68-a43e-37f08cb5c37c" />
+                    </stereotypeInstanceHasPropertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="ab8cedea-9e89-447c-afa0-bbfcc34f6e9e">
+                      <propertyInstance Id="37be570e-16e9-40e3-bbab-eb9baa52047b" name="IsStatic" value="False">
+                        <elementDefinition Id="de1c6390-9105-4b8f-b2e8-d43917a7d206" />
+                      </propertyInstance>
+                      <elementDefinition Id="11ac24d1-0b79-4b84-9578-e46fcbd44981" />
+                    </stereotypeInstanceHasPropertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="b9b0010e-7b1a-4244-9644-88d136e4ae13">
+                      <propertyInstance Id="d8bbbe5a-af92-4b86-94a3-945326cfac65" name="IsUnsafe" value="false">
+                        <elementDefinition Id="2bc3b7d2-37ce-4de5-9c41-b46c47b0834c" />
+                      </propertyInstance>
+                      <elementDefinition Id="905d7c51-d57f-4c00-b138-22951ff23a93" />
+                    </stereotypeInstanceHasPropertyInstances>
+                    <stereotypeInstanceHasPropertyInstances Id="bae5eea8-11c7-4a12-a0ec-ad7362162ea8">
+                      <propertyInstance Id="7f1350c5-2d96-40d8-97a3-12146d054ab4" name="PackageVisibility" value="internal">
+                        <elementDefinition Id="adeab80f-f08e-4b84-a7c3-333e5979f04d" />
+                      </propertyInstance>
+                      <elementDefinition Id="009f8c0e-64d5-4be3-9012-9b4668ffbd81" />
+                    </stereotypeInstanceHasPropertyInstances>
+                  </propertyInstances>
+                </stereotypeInstance>
+              </appliedStereotypesInternal>
+              <elementDefinition Id="9eb3f032-8382-464b-891c-b6ff1175b5be" />
+              <suppliersInternal>
+                <interfaceRealization Id="a591c585-a97f-41e3-bf21-eb41291e67fe">
+                  <interfaceMoniker Id="526e177c-726b-4994-9624-7c56177a8ec2" LastKnownName="IPipe" />
+                  <elementDefinition Id="6aaa6705-1e8c-4830-9816-7c4cf5d3973a" />
+                </interfaceRealization>
+              </suppliersInternal>
+              <targetEnds>
+                <association Id="dac14cb0-74c7-423c-ace1-4f0193a9562a" isDerived="false" sourceEndRoleName="Pipe" targetEndRoleName="Filter" isLeaf="false" isAbstract="false">
+                  <interfaceMoniker Id="cebf6df3-1766-4567-9de4-a676be415e45" LastKnownName="IFilter" />
+                  <description>Property Filter references type IFilter.</description>
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="b46d4d67-0c13-460a-8c22-8ac297357bef" name="Pipe" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <lowerValueInternal>
+                          <literalString Id="d44f71ae-0e87-414f-bb47-b3db92c9f92c" name="Lower" value="*">
+                            <elementDefinition Id="25dd301f-5261-4f29-a864-684d70d521e9" />
+                          </literalString>
+                        </lowerValueInternal>
+                        <upperValueInternal>
+                          <literalString Id="2c68acb5-8a98-4a1b-b457-f9461d01f0b0" name="Upper" value="*">
+                            <elementDefinition Id="b9cafc69-2ba1-42ec-b449-72ac142d1a4a" />
+                          </literalString>
+                        </upperValueInternal>
+                        <elementDefinition Id="352a965b-09de-4345-bc8b-586cf2c89c2e" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="3c41a01b-3864-420e-a44f-faa6e6fbfaae" name="Filter" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <lowerValueInternal>
+                          <literalString Id="dad29e1a-faab-4976-b7f7-cbfcd321958d" name="Lower" value="1">
+                            <elementDefinition Id="400717b8-4e6d-45c3-86c4-201d75ae8ac3" />
+                          </literalString>
+                        </lowerValueInternal>
+                        <upperValueInternal>
+                          <literalString Id="eb2ef7c5-1b3a-46dd-9a6d-5f684f1909c5" name="Upper" value="1">
+                            <elementDefinition Id="3d958352-753b-4b37-a5ac-d85b459fadf0" />
+                          </literalString>
+                        </upperValueInternal>
+                        <elementDefinition Id="ec6e666d-ca7b-4096-b110-ad390b6d1764" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="80c29dd7-96ed-43e2-b0a9-bd287d2b8ec7" />
+                </association>
+              </targetEnds>
+              <ownedAttributesInternal>
+                <property Id="30c70bba-d6eb-4cf1-b491-f7f5d506affa" name="Filter" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <referencesInternal>
+                    <reference Id="53e698d4-a471-4b32-b494-97ee62579b26" handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DPipe Member%3DFilter" tag="ViewCode">
+                      <elementDefinition Id="7def51a0-2a72-44ed-b608-960a0c7936c6" />
+                    </reference>
+                  </referencesInternal>
+                  <appliedStereotypesInternal>
+                    <stereotypeInstance Id="566c46f5-e5aa-434d-a3ec-7dae67b08398" name="property" profile="CSharpProfile">
+                      <elementDefinition Id="4506eeb3-24ff-4d4b-917c-208e69b2b171" />
+                      <propertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="ca4361d2-a0e7-4a53-a2f8-4fe64913ae70">
+                          <propertyInstance Id="4528a52b-a816-447d-b90a-826490f6d3ec" name="ClrAttributes">
+                            <elementDefinition Id="244f2b1d-9ec3-4d8c-b827-52136275d788" />
+                          </propertyInstance>
+                          <elementDefinition Id="b55382ad-46fb-4387-82e3-1811aab0cb87" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="4cc17cb6-202a-4932-83ce-7cefdf9442fe">
+                          <propertyInstance Id="a31c4886-7467-4c47-84aa-b43e248ce7c1" name="Get" value="public">
+                            <elementDefinition Id="a3d3159d-0949-45a6-ac08-01a7d59bfb47" />
+                          </propertyInstance>
+                          <elementDefinition Id="272e7243-451e-4aa3-bb81-acc9036902a2" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="3f39b537-1596-4dca-995f-36fc5db1ee3b">
+                          <propertyInstance Id="f7307de4-81e9-430a-9d17-bb42ebf256e0" name="HasBody" value="false">
+                            <elementDefinition Id="b384e731-064d-40fa-9a6c-f954feee2cbc" />
+                          </propertyInstance>
+                          <elementDefinition Id="9749ee96-7511-4304-8e21-3f92158d85b9" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="c391ad05-ef23-4f6e-a7fa-55a5c48b705b">
+                          <propertyInstance Id="17eaef7d-2a49-4ce0-b734-b23418f9dcfc" name="IsUnsafe" value="false">
+                            <elementDefinition Id="51b17d7e-dc67-46e9-b8b6-df41c174d720" />
+                          </propertyInstance>
+                          <elementDefinition Id="15faa9ee-31c8-4a9c-b073-122c371d221e" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="d378a4dd-c9bc-4846-95bd-09a83a2b0b15">
+                          <propertyInstance Id="07e9b45e-e4c3-4064-97f0-990924f44d03" name="Inheritance" value="none">
+                            <elementDefinition Id="068777fa-7819-4c46-b4bf-509d26d5423c" />
+                          </propertyInstance>
+                          <elementDefinition Id="322c58cc-4512-422d-a7e7-1ec5b81a739e" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="28f1bc81-677e-4710-8981-3842b0557f40">
+                          <propertyInstance Id="9904b8ef-f7e0-4335-ad64-0d2292421ded" name="PackageVisibility" value="internal">
+                            <elementDefinition Id="6de7c01e-7f27-44fa-9d5c-12902461101f" />
+                          </propertyInstance>
+                          <elementDefinition Id="ae233c29-cbb2-4489-bb48-26e0ca6a61c3" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="64cb1488-daeb-41af-9671-d1543c1717a6">
+                          <propertyInstance Id="a7074c73-ab33-4e83-b179-4574051b21e0" name="Set" value="public">
+                            <elementDefinition Id="920dfebd-bb21-4211-9774-014db5fb9641" />
+                          </propertyInstance>
+                          <elementDefinition Id="e5928a97-d36e-424f-9498-f0e92c8890f3" />
+                        </stereotypeInstanceHasPropertyInstances>
+                      </propertyInstances>
+                    </stereotypeInstance>
+                  </appliedStereotypesInternal>
+                  <elementDefinition Id="7e33553d-69b1-4e3e-bd55-4fa0773fd115" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="24ad10f0-f807-443a-ad15-fe8e01c2c321" LastKnownName="IFilter" />
+                  </type_NamedElement>
+                </property>
+                <property Id="bc22cc0a-50c5-4bbf-a44f-40c4c51c0f21" name="Buffer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <referencesInternal>
+                    <reference Id="9947fc94-69ee-4bbd-997c-fe05af84485c" handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DPipe Member%3DBuffer" tag="ViewCode">
+                      <elementDefinition Id="53e23068-e977-4b20-b13f-b48c25f1ff24" />
+                    </reference>
+                  </referencesInternal>
+                  <appliedStereotypesInternal>
+                    <stereotypeInstance Id="c7051b7b-ee23-468d-bde1-d05c1f932a06" name="property" profile="CSharpProfile">
+                      <elementDefinition Id="a880d821-0310-45de-99c0-90b20ee81b5d" />
+                      <propertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="d1f028df-558a-495c-87e2-9aa8d45bd0e9">
+                          <propertyInstance Id="9daad6c2-3e22-4206-8680-2501e54ec8c0" name="ClrAttributes">
+                            <elementDefinition Id="8483a2ac-9177-4f79-bce9-0b968e99db21" />
+                          </propertyInstance>
+                          <elementDefinition Id="a280a832-561d-4a10-bf1c-fd5e6cd4a905" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="5043b867-4580-48ea-9017-b4b8baf6f447">
+                          <propertyInstance Id="60a28e73-870f-44cd-a261-4ee3ba5c0331" name="Get" value="public">
+                            <elementDefinition Id="b8b87788-1a74-4545-a770-5f39bb26c4d2" />
+                          </propertyInstance>
+                          <elementDefinition Id="168f0f76-53e4-4133-b0fe-2426d083f8c4" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="26b8fcbd-964d-4147-a810-2821119e480b">
+                          <propertyInstance Id="89939355-81ce-485e-88b3-f10096bafb49" name="HasBody" value="false">
+                            <elementDefinition Id="37e7cc74-3653-4587-bf7d-fe349c669baf" />
+                          </propertyInstance>
+                          <elementDefinition Id="2be92fce-a011-40a7-a2ef-b11ff1df3a92" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="1bb524fd-4fd4-4c45-89a7-2d65691bc430">
+                          <propertyInstance Id="7cf1ca91-426b-4ab1-9491-8753bf038420" name="IsUnsafe" value="false">
+                            <elementDefinition Id="719e67b5-86d6-49dd-b7fc-95613e2f3dcb" />
+                          </propertyInstance>
+                          <elementDefinition Id="536cdc32-aa2f-4222-9f26-6142f2ee9cd5" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="79aee1f1-fdbb-49a1-8cae-3c21579a46cc">
+                          <propertyInstance Id="799daadc-4b91-48dc-a38b-2ba65da7964b" name="Inheritance" value="none">
+                            <elementDefinition Id="a346954e-5ca7-44a2-9c24-af12fe2d168e" />
+                          </propertyInstance>
+                          <elementDefinition Id="7e84cd8e-cd2c-4244-a3fb-fc7d19ee4792" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="42063b00-e25c-47ce-9aee-e90f9faff43f">
+                          <propertyInstance Id="2a204a3d-5c55-4abb-97f3-54cce74b2289" name="PackageVisibility" value="internal">
+                            <elementDefinition Id="e043959c-642e-4327-ad9c-e67cedec6b85" />
+                          </propertyInstance>
+                          <elementDefinition Id="7a99c683-c4d6-4e71-94ec-2b062ed425d9" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="b926b8ec-71fb-40c1-af68-3a6045b0139f">
+                          <propertyInstance Id="5f741b37-9b32-4fc6-9c5d-bae791bd585a" name="Set" value="public">
+                            <elementDefinition Id="955c7861-3bb0-4f0c-90a2-c2a3fe063c9e" />
+                          </propertyInstance>
+                          <elementDefinition Id="f7d91fb2-345b-4fd3-b995-b112185e5b6b" />
+                        </stereotypeInstanceHasPropertyInstances>
+                      </propertyInstances>
+                    </stereotypeInstance>
+                  </appliedStereotypesInternal>
+                  <elementDefinition Id="0be29837-fc49-494f-8542-bcdaf8a237d3" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="670559c1-00e9-48ea-8a1a-9479d1d21790" LastKnownName="BlockingCollection&lt;IFilterInput‎&gt;" />
+                  </type_NamedElement>
+                </property>
+              </ownedAttributesInternal>
+              <ownedOperationsInternal>
+                <operation Id="dbe90d6f-d071-48a9-b85b-51001d38390a" name="Pipe" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <referencesInternal>
+                    <reference Id="8527f1a4-6ed0-4733-926f-ae855d3ce610" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DPipe Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilter)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Concurrent Type%3D(Name%3DBlockingCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)]))])" tag="ViewCode">
+                      <elementDefinition Id="9d062771-1976-4788-930b-dd2664e8c9f8" />
+                    </reference>
+                  </referencesInternal>
+                  <appliedStereotypesInternal>
+                    <stereotypeInstance Id="65ff2ef3-8528-4d7f-8e57-866f8babb6bf" name="method" profile="CSharpProfile">
+                      <elementDefinition Id="d530b389-58db-4828-8396-ad0e1edb9040" />
+                      <propertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="90eb9f80-82f7-4156-a815-9f9526f8516a">
+                          <propertyInstance Id="58666b7e-dfb8-46b1-abd6-7c2e2757f99c" name="ClrAttributes">
+                            <elementDefinition Id="64b9c53a-bfc0-448e-a500-6c94fae77d1c" />
+                          </propertyInstance>
+                          <elementDefinition Id="894865f5-99a3-4ab0-8beb-4b4ca1473e87" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="95091625-2b96-4d33-b559-1f38683721ad">
+                          <propertyInstance Id="01196ad2-0133-4df6-87ce-5a8297d1d675" name="IsPartial" value="false">
+                            <elementDefinition Id="91f13c10-e8d9-4c9e-9b71-3ac624ff72d2" />
+                          </propertyInstance>
+                          <elementDefinition Id="3329cbcf-fff9-42ea-a82a-72cdb3cd30c7" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="0460b079-efa7-46a0-b3a5-fff431b83b6e">
+                          <propertyInstance Id="f5d41178-f7af-4a89-bce5-84892fbc347a" name="IsUnsafe" value="false">
+                            <elementDefinition Id="795c7d67-0873-426d-902e-ee988bd8a802" />
+                          </propertyInstance>
+                          <elementDefinition Id="fe8bda06-0e06-4fb2-af1a-88bea4701e23" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="973ebe66-5714-4f96-be8c-8b2b364de2a8">
+                          <propertyInstance Id="afee1620-556e-4959-9c4f-cd03c94f9385" name="Inheritance" value="none">
+                            <elementDefinition Id="ca01f114-93b1-40cb-baa0-1f555dfc56a7" />
+                          </propertyInstance>
+                          <elementDefinition Id="4e3fc943-e49b-4cee-9744-baf26441e5b6" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="8c9fbc58-915d-45c2-a1b0-34b112ed51fe">
+                          <propertyInstance Id="f7c54d8a-68b0-42aa-9225-f40f19715304" name="PackageVisibility" value="internal">
+                            <elementDefinition Id="2b777f22-a6be-4ffe-8702-d66207b9bed8" />
+                          </propertyInstance>
+                          <elementDefinition Id="bdd5fd92-4c20-48d4-a860-d91f9c9dae8c" />
+                        </stereotypeInstanceHasPropertyInstances>
+                        <stereotypeInstanceHasPropertyInstances Id="9da54149-c07e-409b-a644-53489178bdf4">
+                          <propertyInstance Id="d15788e9-5642-4929-946e-0d724957bdf3" name="params" value="false">
+                            <elementDefinition Id="e2647040-eddd-418a-a5c7-3b68c25eadad" />
+                          </propertyInstance>
+                          <elementDefinition Id="e97feac2-b804-45b4-adba-9d1844c42522" />
+                        </stereotypeInstanceHasPropertyInstances>
+                      </propertyInstances>
+                    </stereotypeInstance>
+                  </appliedStereotypesInternal>
+                  <elementDefinition Id="35041dcc-a58c-4739-b7c8-939cea9c812f" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="5c591262-555a-49f6-8962-517e4302e976" name="filter" direction="In">
+                        <referencesInternal>
+                          <reference Id="a19ccc6d-16c8-4857-9cda-478fafa2aa6b" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DPipe Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilter)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Concurrent Type%3D(Name%3DBlockingCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)]))]) ParameterIdentifier%3Dfilter" tag="ViewCode">
+                            <elementDefinition Id="593861f2-b150-4bb0-943d-83db83bd81ad" />
+                          </reference>
+                        </referencesInternal>
+                        <elementDefinition Id="e4b9c351-c994-4bfd-8353-782dd18a36b2" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="24ad10f0-f807-443a-ad15-fe8e01c2c321" LastKnownName="IFilter" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="d02c39be-40ce-4495-8cf9-7401c7f59f6f" name="buffer" direction="In">
+                        <referencesInternal>
+                          <reference Id="3b17e69f-ba9c-4237-ac8a-bd9ec2c7b1c1" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DPipe Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilter)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.dll&quot; Namespace%3DSystem.Collections.Concurrent Type%3D(Name%3DBlockingCollection GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fpsmelser%2FDocuments%2FVisual Studio 2012%2FProjects%2FPipeLines%2FPipelines%2Fbin%2FDebug%2FPipelines.dll&quot; Namespace%3DPipelines Type%3DIFilterInput)]))]) ParameterIdentifier%3Dbuffer" tag="ViewCode">
+                            <elementDefinition Id="aa60551f-9dc3-4f0c-b594-a2241881ff2e" />
+                          </reference>
+                        </referencesInternal>
+                        <elementDefinition Id="7264c8ad-889d-49af-a3ae-f2d166ca4f3b" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="670559c1-00e9-48ea-8a1a-9479d1d21790" LastKnownName="BlockingCollection&lt;IFilterInput‎&gt;" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <packageHasNamedElement>
+      <referencedType Id="fdcd5a45-9e4d-4078-8b6a-3d6d33217878" name="IFilterInput" isAbstract="false" isLeaf="false" cachedFullName="Pipelines.Model::Pipelines::IFilterInput">
+        <elementDefinition Id="366c8c45-5d61-4d99-ae2c-b6a023fbb83b" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="670559c1-00e9-48ea-8a1a-9479d1d21790" name="BlockingCollection&lt;IFilterInput‎&gt;" isAbstract="false" isLeaf="false" cachedFullName="Pipelines.Model::System::Collections::Concurrent::BlockingCollection&lt;IFilterInput‎&gt;">
+        <elementDefinition Id="375e163b-3459-4b42-ae7d-0a5a6e5a4d0e" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="24ad10f0-f807-443a-ad15-fe8e01c2c321" name="IFilter" isAbstract="false" isLeaf="false" cachedFullName="Pipelines.Model::Pipelines::IFilter">
+        <elementDefinition Id="8dd66f67-7b17-477c-88e7-ed72107d52a0" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="cf026586-c513-4332-b0dc-25cd33cbb503" name="Object" isAbstract="false" isLeaf="false" cachedFullName="Pipelines.Model::System::Object">
+        <elementDefinition Id="a99ea97f-3a65-4a57-a3cb-57693980e926" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="924eb9e5-df29-41c3-a1c3-13f13387ca78" name="Queue&lt;Pipe‎&gt;" isAbstract="false" isLeaf="false" cachedFullName="Pipelines.Model::System::Collections::Generic::Queue&lt;Pipe‎&gt;">
+        <elementDefinition Id="d2d0b2a8-fedb-4e92-9ef9-8d07bad40e32" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="fe04147e-a727-46b7-9afa-704dec7773de" name="Pipeline" isAbstract="false" isLeaf="false" cachedFullName="Pipelines.Model::Pipelines::Pipeline">
+        <elementDefinition Id="4b1595a0-68bd-4004-b81f-0425f13b527c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="d3ffedb4-7254-46ed-be0f-75cbbb3ca35c" name="IEnumerable&lt;Object‎&gt;" isAbstract="false" isLeaf="false" cachedFullName="Pipelines.Model::System::Collections::Generic::IEnumerable&lt;Object‎&gt;">
+        <elementDefinition Id="ab58bc15-e7ab-4e5a-930e-abf4516d5225" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="f3021dc8-4541-427a-bbfa-659fd65497f9" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="707b7c68-981e-4971-b721-89023e9ed6ed" name="Pipelines.Model">
+    <elementDefinition Id="4ab766a2-8782-4663-8c00-9d024b738a9f" />
+  </package>
+</logicalClassDesignerModel>

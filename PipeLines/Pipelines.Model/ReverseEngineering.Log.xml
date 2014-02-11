@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES/MICROSOFT VISUAL STUDIO 11.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2014-02-07T20:37:59" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: '347b50e0-cbb8-4925-8b60-40f315adb407' -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'be966f6b-5604-4b66-b735-89c15697a4d0' -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'c3cf3a0d-54d6-4f08-a3fa-fc44e0b25388' -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Integer' -  (PrimitiveType)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines' -  (Package)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Medium" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::Filter' -  (Class)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::Filter::Filter' -  (Operation)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::Filter::Run' -  (Operation)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::Filter::Run::input' -  (Parameter)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::Filter::Run::output' -  (Parameter)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Medium" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::FilterInput' -  (Class)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::FilterInput::FilterInput' -  (Operation)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::FilterInput::FilterInput::value' -  (Parameter)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::FilterInput::Value' -  (Property)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Medium" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::IFilter' -  (Interface)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::IFilter::Run' -  (Operation)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::IFilter::Run::input' -  (Parameter)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::IFilter::Run::output' -  (Parameter)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Medium" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::IFilterInput' -  (Interface)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::IFilterInput::Value' -  (Property)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Medium" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::IPipe' -  (Interface)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::IPipe::Buffer' -  (Property)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::IPipe::Filter' -  (Property)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Medium" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::IPipeline' -  (Interface)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::IPipeline::Run' -  (Operation)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Medium" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::Pipe' -  (Class)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::Pipe::Buffer' -  (Property)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::Pipe::Filter' -  (Property)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::Pipe::Pipe' -  (Operation)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::Pipe::Pipe::buffer' -  (Parameter)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::Pipe::Pipe::filter' -  (Parameter)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Medium" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::Pipeline' -  (Class)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::Pipeline::Input' -  (Property)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::Pipeline::Jobs' -  (Property)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::Pipeline::Pipeline' -  (Operation)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::Pipeline::Pipeline::filter' -  (Parameter)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::Pipeline::Pipeline::firstOutput' -  (Parameter)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::Pipeline::Pipeline::input' -  (Parameter)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::Pipeline::Run' -  (Operation)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::Pipeline::StartNew' -  (Operation)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::Pipeline::StartNew::bufferSize' -  (Parameter)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::Pipeline::StartNew::filter' -  (Parameter)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::Pipeline::StartNew::input' -  (Parameter)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::Pipeline::Then' -  (Operation)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::Pipeline::Then::bufferSize' -  (Parameter)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::Pipeline::Then::filter' -  (Parameter)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Medium" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::Program' -  (Class)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::Program::Main' -  (Operation)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::Program::Main::args' -  (Parameter)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::Program::Program' -  (Operation)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Medium" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::SendFilter' -  (Class)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::SendFilter::PhraseSource' -  (Operation)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::SendFilter::PhraseSource::input' -  (Parameter)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::SendFilter::Run' -  (Operation)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::SendFilter::Run::input' -  (Parameter)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::SendFilter::Run::output' -  (Parameter)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::SendFilter::SendFilter' -  (Operation)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Medium" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::WriteLineAppendNameFilter' -  (Class)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::WriteLineAppendNameFilter::Run' -  (Operation)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::WriteLineAppendNameFilter::Run::input' -  (Parameter)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::WriteLineAppendNameFilter::Run::output' -  (Parameter)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::WriteLineAppendNameFilter::WriteLineAppendNameFilter' -  (Operation)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Medium" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::WriteLineFilter' -  (Class)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::WriteLineFilter::Run' -  (Operation)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::WriteLineFilter::Run::input' -  (Parameter)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::WriteLineFilter::Run::output' -  (Parameter)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::WriteLineFilter::WriteLineFilter' -  (Operation)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Medium" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::WriteLineInput' -  (Class)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::WriteLineInput::Value' -  (Property)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::WriteLineInput::WriteLineInput' -  (Operation)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::Pipelines::WriteLineInput::WriteLineInput::value' -  (Parameter)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::System' -  (Package)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::System::Collections' -  (Package)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::System::Collections::Concurrent' -  (Package)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::System::Collections::Concurrent::BlockingCollection' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::System::Collections::Concurrent::BlockingCollection&lt;IFilterInput‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::System::Collections::Generic' -  (Package)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::System::Collections::Generic::IEnumerable' -  (Interface)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::System::Collections::Generic::IEnumerable&lt;Object‎&gt;' -  (Interface)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::System::Collections::Generic::Queue' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::System::Collections::Generic::Queue&lt;Pipe‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Pipelines.Model::System::Object' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: Pipelines.Model::Pipelines::Filter to Pipelines.Model::Pipelines::IFilter (InterfaceRealization)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: Pipelines.Model::Pipelines::FilterInput to Pipelines.Model::System::Object (Association)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: Pipelines.Model::Pipelines::FilterInput to Pipelines.Model::Pipelines::IFilterInput (InterfaceRealization)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: Pipelines.Model::Pipelines::IPipe to Pipelines.Model::Pipelines::IFilter (Association)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: Pipelines.Model::Pipelines::IPipe to Pipelines.Model::System::Collections::Concurrent::BlockingCollection&lt;IFilterInput‎&gt; (Association)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: Pipelines.Model::Pipelines::Pipe to Pipelines.Model::Pipelines::IFilter (Association)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: Pipelines.Model::Pipelines::Pipe to Pipelines.Model::System::Collections::Concurrent::BlockingCollection&lt;IFilterInput‎&gt; (Association)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: Pipelines.Model::Pipelines::Pipe to Pipelines.Model::Pipelines::IPipe (InterfaceRealization)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: Pipelines.Model::Pipelines::Pipeline to Pipelines.Model::Pipelines::IPipeline (InterfaceRealization)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: Pipelines.Model::Pipelines::SendFilter to Pipelines.Model::Pipelines::Filter (Generalization)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: Pipelines.Model::Pipelines::WriteLineAppendNameFilter to Pipelines.Model::Pipelines::Filter (Generalization)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: Pipelines.Model::Pipelines::WriteLineFilter to Pipelines.Model::Pipelines::Filter (Generalization)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: Pipelines.Model::Pipelines::WriteLineInput to Pipelines.Model::System::Object (Association)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: Pipelines.Model::Pipelines::WriteLineInput to Pipelines.Model::Pipelines::IFilterInput (InterfaceRealization)" />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="High" Text="(13) type(s) fully reverse engineered." />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="High" Text="(7) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2014-02-07T20:38:02" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>

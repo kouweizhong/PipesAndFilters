@@ -1,0 +1,5 @@
+C:\Users\psmelser\Documents\Visual Studio 2012\Projects\Azure\CloudBlockBlobTests\bin\Debug\CloudBlockBlobTests.dll
+C:\Users\psmelser\Documents\Visual Studio 2012\Projects\Azure\CloudBlockBlobTests\bin\Debug\CloudBlockBlobTests.pdb
+C:\Users\psmelser\Documents\Visual Studio 2012\Projects\Azure\CloudBlockBlobTests\obj\Debug\CloudBlockBlobTests.csprojResolveAssemblyReference.cache
+C:\Users\psmelser\Documents\Visual Studio 2012\Projects\Azure\CloudBlockBlobTests\obj\Debug\CloudBlockBlobTests.dll
+C:\Users\psmelser\Documents\Visual Studio 2012\Projects\Azure\CloudBlockBlobTests\obj\Debug\CloudBlockBlobTests.pdb

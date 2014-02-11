@@ -1,0 +1,13 @@
+C:\Users\psmelser\Documents\Visual Studio 2012\Projects\Azure\CloudBlockBlobTests\Pipelines\bin\Debug\Pipelines.dll
+C:\Users\psmelser\Documents\Visual Studio 2012\Projects\Azure\CloudBlockBlobTests\Pipelines\bin\Debug\Pipelines.pdb
+C:\Users\psmelser\Documents\Visual Studio 2012\Projects\Azure\CloudBlockBlobTests\Pipelines\obj\Debug\Pipelines.dll
+C:\Users\psmelser\Documents\Visual Studio 2012\Projects\Azure\CloudBlockBlobTests\Pipelines\obj\Debug\Pipelines.pdb
+C:\Users\psmelser\Documents\Visual Studio 2012\Projects\Azure\PipeLines\Pipelines\bin\Debug\Pipelines.dll
+C:\Users\psmelser\Documents\Visual Studio 2012\Projects\Azure\PipeLines\Pipelines\bin\Debug\Pipelines.pdb
+C:\Users\psmelser\Documents\Visual Studio 2012\Projects\Azure\PipeLines\Pipelines\obj\Debug\Pipelines.dll
+C:\Users\psmelser\Documents\Visual Studio 2012\Projects\Azure\PipeLines\Pipelines\obj\Debug\Pipelines.pdb
+C:\Users\psmelser\Documents\Visual Studio 2012\Projects\PipeLines\Pipelines\bin\Debug\Pipelines.dll
+C:\Users\psmelser\Documents\Visual Studio 2012\Projects\PipeLines\Pipelines\bin\Debug\Pipelines.pdb
+C:\Users\psmelser\Documents\Visual Studio 2012\Projects\PipeLines\Pipelines\obj\Debug\Pipelines.csprojResolveAssemblyReference.cache
+C:\Users\psmelser\Documents\Visual Studio 2012\Projects\PipeLines\Pipelines\obj\Debug\Pipelines.dll
+C:\Users\psmelser\Documents\Visual Studio 2012\Projects\PipeLines\Pipelines\obj\Debug\Pipelines.pdb

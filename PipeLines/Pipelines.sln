@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pipelines", "Pipelines\Pipelines.csproj", "{3C4DDF21-B561-43CB-9ADF-06DF71C285A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pipelines.Console", "Pipelines.Console\Pipelines.Console.csproj", "{E41CEC9E-D9E0-4484-9C5E-58FE50E0DA76}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Pipelines.Model", "Pipelines.Model\Pipelines.Model.modelproj", "{63B84899-A6E8-4D6B-8307-D0C78DCCA7DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C4DDF21-B561-43CB-9ADF-06DF71C285A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C4DDF21-B561-43CB-9ADF-06DF71C285A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C4DDF21-B561-43CB-9ADF-06DF71C285A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C4DDF21-B561-43CB-9ADF-06DF71C285A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E41CEC9E-D9E0-4484-9C5E-58FE50E0DA76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E41CEC9E-D9E0-4484-9C5E-58FE50E0DA76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E41CEC9E-D9E0-4484-9C5E-58FE50E0DA76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E41CEC9E-D9E0-4484-9C5E-58FE50E0DA76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63B84899-A6E8-4D6B-8307-D0C78DCCA7DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63B84899-A6E8-4D6B-8307-D0C78DCCA7DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63B84899-A6E8-4D6B-8307-D0C78DCCA7DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63B84899-A6E8-4D6B-8307-D0C78DCCA7DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
