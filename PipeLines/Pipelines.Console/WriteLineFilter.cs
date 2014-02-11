@@ -1,12 +1,11 @@
-﻿using System.Collections.Concurrent;
-
-namespace Pipelines
+﻿namespace Pipelines
 {
 	public class WriteLineFilter : Filter
 	{
 		public override void Run(Context context)
 		{
-			System.Console.WriteLine(context.Input.Value);
+		    var input = context.Input as WriteLineInput;
+			System.Console.WriteLine("{0}-{1}",input.Index, input.Value);
 			context.PushToNext(context.Input);
 		}
 	}

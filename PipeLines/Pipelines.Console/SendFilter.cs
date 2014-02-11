@@ -7,7 +7,7 @@ namespace Pipelines
 	{
 		public override void Run(Context context)
 		{
-			var outValue = new WriteLineInput(PhraseSource(context.Input));
+			var outValue = new WriteLineInput(PhraseSource(context.Input), (int) context.Input.Value);
 			context.PushToNext(outValue);
 		}
 

@@ -12,9 +12,10 @@ namespace Pipelines
 	    }
 		public override void Run(Context context)
 		{
-		    var write = string.Format("{0} {1} ===>", context.Input.Value, Name);
+		    var input = context.Input as WriteLineInput;
+		    var write = string.Format("{0} {1} - {2} ===>", input.Value, Name, input.Index);
             Console.WriteLine("{0} {1}", context.Input.Value, Name);
-            context.PushToNext(new WriteLineInput(write));
+            context.PushToNext(new WriteLineInput(write, 1));
 		}
 	}
 
