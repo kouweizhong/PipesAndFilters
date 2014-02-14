@@ -13,7 +13,7 @@ namespace Pipelines
 		{
             var input = context.Input.MapAs<WriteLineInput>();
 		    var write = string.Format("{0} {1} - {2} ===>", input.Value, Name, input.Index);
-            Console.WriteLine("{0} {1}", context.Input, Name);
+            Console.WriteLine("{0} {1}", input.Value, Name);
 
             context.PushToNext(new WriteLineInput(write, 1));
 		}

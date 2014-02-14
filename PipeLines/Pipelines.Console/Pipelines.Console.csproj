@@ -43,6 +43,8 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegexReplaceFilter.cs" />
+    <Compile Include="RegexReplaceFilterInput.cs" />
     <Compile Include="SendFilter.cs" />
     <Compile Include="WriteLineAppendNameFilter.cs" />
     <Compile Include="WriteLineFilter.cs" />

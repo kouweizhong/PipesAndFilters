@@ -6,7 +6,7 @@
 		{
             var input = context.Input.MapAs<WriteLineInput>();
 			System.Console.WriteLine("{0}-{1}",input.Index, input.Value);
-			context.PushToNext(context.Input);
+			context.PushToNext(new RegexReplaceFilterInput{InputString = (string) input.Value, RegexPattern = "^\\d*"});
 		}
 	}
 }

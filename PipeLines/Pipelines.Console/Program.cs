@@ -12,7 +12,8 @@ namespace Pipelines
                 .Then(new WriteLineAppendNameFilter("Paul Smelser"), 100)
                 .Then(new WriteLineAppendNameFilter("Melinda Chen"), 100)
                 .Then(new WriteLineAppendNameFilter("William Smelser"), 100)
-                .Then(new WriteLineAppendNameFilter("Michael Smelser"), 100).Run();
+                .Then(new WriteLineFilter(), 100)
+                .Then(new RegexReplaceFilter(), 100).Run();
 
 			System.Console.ReadKey();
 		}
