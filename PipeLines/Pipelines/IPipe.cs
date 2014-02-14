@@ -5,6 +5,6 @@ namespace Pipelines
 	public interface IPipe
 	{
 		IFilter Filter { get; set; }
-		BlockingCollection<IFilterInput> Buffer { get; set; }
+		BlockingCollection<object> Buffer { get; set; }
 	}
 }

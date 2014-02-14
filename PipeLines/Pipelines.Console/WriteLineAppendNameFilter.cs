@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Concurrent;
 
 namespace Pipelines
 {
@@ -12,9 +11,10 @@ namespace Pipelines
 	    }
 		public override void Run(Context context)
 		{
-		    var input = context.Input as WriteLineInput;
+            var input = context.Input.MapAs<WriteLineInput>();
 		    var write = string.Format("{0} {1} - {2} ===>", input.Value, Name, input.Index);
-            Console.WriteLine("{0} {1}", context.Input.Value, Name);
+            Console.WriteLine("{0} {1}", context.Input, Name);
+
             context.PushToNext(new WriteLineInput(write, 1));
 		}
 	}

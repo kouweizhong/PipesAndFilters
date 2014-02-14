@@ -1,6 +1,6 @@
 ﻿namespace Pipelines
 {
-	public class WriteLineInput : IFilterInput
+	public class WriteLineInput
 	{
 		public WriteLineInput(string value, int index)
 		{

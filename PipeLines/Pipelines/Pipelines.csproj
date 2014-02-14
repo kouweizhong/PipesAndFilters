@@ -41,9 +41,8 @@
   <ItemGroup>
     <Compile Include="Filter.cs" />
     <Compile Include="Context.cs" />
-    <Compile Include="FilterInput.cs" />
+    <Compile Include="FilterInputExtension.cs" />
     <Compile Include="IFilter.cs" />
-    <Compile Include="IFilterInput.cs" />
     <Compile Include="IPipe.cs" />
     <Compile Include="IPipeline.cs" />
     <Compile Include="Pipe.cs" />

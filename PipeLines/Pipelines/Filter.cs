@@ -6,7 +6,7 @@ namespace Pipelines
 	{
 		public abstract void Run(Context context);
 
-		public void Run(BlockingCollection<IFilterInput> input, BlockingCollection<IFilterInput> output)
+		public void Run(BlockingCollection<object> input, BlockingCollection<object> output)
 		{
 			try
 			{

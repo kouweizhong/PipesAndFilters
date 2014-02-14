@@ -1,18 +1,18 @@
-﻿using System.Collections.Concurrent;
+﻿    using System.Collections.Concurrent;
 
 namespace Pipelines
 {
     public class Context
     {
-        public IFilterInput Input { get; private set; }
-        private BlockingCollection<IFilterInput> Output { get; set; }
+        public object Input { get; private set; }
+        private BlockingCollection<object> Output { get; set; }
 
-        public Context(IFilterInput input, BlockingCollection<IFilterInput> output)
+        public Context(object input, BlockingCollection<object> output)
         {
             Input = input;
             Output = output;
         }
-        public void PushToNext(IFilterInput input)
+        public void PushToNext(object input)
         {
             Output.Add(input);
         }

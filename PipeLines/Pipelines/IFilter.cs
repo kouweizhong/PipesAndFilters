@@ -4,7 +4,7 @@ namespace Pipelines
 {
 	public interface IFilter
 	{
-		void Run(BlockingCollection<IFilterInput> input, BlockingCollection<IFilterInput> output);
+		void Run(BlockingCollection<object> input, BlockingCollection<object> output);
 
 	}
 }

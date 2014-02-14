@@ -8,9 +8,9 @@ namespace Pipelines
     public class Pipeline : IPipeline
     {
 		Queue<Pipe> Filters { get; set; }
-		BlockingCollection<IFilterInput> Input { get; set; }
+		BlockingCollection<object> Input { get; set; }
 
-		private Pipeline(IFilter filter, BlockingCollection<IFilterInput> input, BlockingCollection<IFilterInput> firstOutput)
+		private Pipeline(IFilter filter, BlockingCollection<object> input, BlockingCollection<object> firstOutput)
 		{
 			Filters = new Queue<Pipe>();
 			Filters.Enqueue(new Pipe(filter, firstOutput));
@@ -20,18 +20,18 @@ namespace Pipelines
 		public static Pipeline StartNew(IFilter filter, IEnumerable<object> input, int bufferSize)
 		{
 			var enumerable = input as object[] ?? input.ToArray();
-			var input2 = new BlockingCollection<IFilterInput>(enumerable.Count());
+			var input2 = new BlockingCollection<object>(enumerable.Count());
 			foreach (var o in enumerable)
 			{
-				input2.Add(new FilterInput(o));
+				input2.Add(o);
 			}
 			input2.CompleteAdding();
-			return new Pipeline(filter, input2, new BlockingCollection<IFilterInput>(bufferSize));
+			return new Pipeline(filter, input2, new BlockingCollection<object>(bufferSize));
 		}
 
 		public Pipeline Then(IFilter filter, int bufferSize)
 		{
-			Filters.Enqueue(new Pipe(filter, new BlockingCollection<IFilterInput>(bufferSize)));
+			Filters.Enqueue(new Pipe(filter, new BlockingCollection<object>(bufferSize)));
 			return this;
 		}
 

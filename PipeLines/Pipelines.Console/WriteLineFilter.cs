@@ -4,7 +4,7 @@
 	{
 		public override void Run(Context context)
 		{
-		    var input = context.Input as WriteLineInput;
+            var input = context.Input.MapAs<WriteLineInput>();
 			System.Console.WriteLine("{0}-{1}",input.Index, input.Value);
 			context.PushToNext(context.Input);
 		}
