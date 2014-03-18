@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E45C406A-8A2E-40F9-8412-6C79FE84BF3E}</ProjectGuid>
+    <ProjectGuid>{3C4DDF21-B561-43CB-9ADF-06DF71C285A9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Pipelines</RootNamespace>
@@ -40,11 +40,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Filter.cs" />
-    <Compile Include="Context.cs" />
+    <Compile Include="FilterContext.cs" />
     <Compile Include="FilterInputExtension.cs" />
     <Compile Include="IFilter.cs" />
     <Compile Include="IPipe.cs" />
     <Compile Include="IPipeline.cs" />
+    <Compile Include="IPipelineContract.cs" />
     <Compile Include="Pipe.cs" />
     <Compile Include="Pipeline.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

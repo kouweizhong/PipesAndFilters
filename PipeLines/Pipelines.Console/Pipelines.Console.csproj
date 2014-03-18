@@ -52,7 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Pipelines\Pipelines.csproj">
-      <Project>{3C4DDF21-B561-43CB-9ADF-06DF71C285A9}</Project>
+      <Project>{e45c406a-8a2e-40f9-8412-6c79fe84bf3e}</Project>
       <Name>Pipelines</Name>
     </ProjectReference>
   </ItemGroup>

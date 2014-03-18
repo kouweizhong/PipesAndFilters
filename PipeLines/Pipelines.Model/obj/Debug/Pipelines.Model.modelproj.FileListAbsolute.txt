@@ -1,6 +1,3 @@
 C:\Users\psmelser\Documents\Visual Studio 2012\Projects\PipeLines\Pipelines.Model\bin\Debug\Pipelines.dll
 C:\Users\psmelser\Documents\Visual Studio 2012\Projects\PipeLines\Pipelines.Model\bin\Debug\Pipelines.pdb
 C:\Users\psmelser\Documents\Visual Studio 2012\Projects\PipeLines\Pipelines.Model\obj\Debug\Pipelines.Model.modelprojResolveAssemblyReference.cache
-C:\Users\psmelser\Documents\GitHub\PipesAndFilters\PipeLines\Pipelines.Model\bin\Debug\Pipelines.dll
-C:\Users\psmelser\Documents\GitHub\PipesAndFilters\PipeLines\Pipelines.Model\bin\Debug\Pipelines.pdb
-C:\Users\psmelser\Documents\GitHub\PipesAndFilters\PipeLines\Pipelines.Model\obj\Debug\Pipelines.Model.modelprojResolveAssemblyReference.cache

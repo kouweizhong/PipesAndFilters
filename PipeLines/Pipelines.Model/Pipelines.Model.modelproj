@@ -49,10 +49,4 @@
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Pipelines\Pipelines.csproj">
-      <Name>Pipelines</Name>
-      <Project>{3c4ddf21-b561-43cb-9adf-06df71c285a9}</Project>
-    </ProjectReference>
-  </ItemGroup>
 </Project>

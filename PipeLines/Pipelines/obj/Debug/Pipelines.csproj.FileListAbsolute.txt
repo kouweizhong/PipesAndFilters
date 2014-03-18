@@ -15,3 +15,4 @@ C:\Users\psmelser\Documents\GitHub\PipesAndFilters\PipeLines\Pipelines\bin\Debug
 C:\Users\psmelser\Documents\GitHub\PipesAndFilters\PipeLines\Pipelines\bin\Debug\Pipelines.pdb
 C:\Users\psmelser\Documents\GitHub\PipesAndFilters\PipeLines\Pipelines\obj\Debug\Pipelines.dll
 C:\Users\psmelser\Documents\GitHub\PipesAndFilters\PipeLines\Pipelines\obj\Debug\Pipelines.pdb
+C:\Users\psmelser\Documents\GitHub\PipesAndFilters\PipeLines\Pipelines\obj\Debug\Pipelines.csprojResolveAssemblyReference.cache

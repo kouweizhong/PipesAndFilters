@@ -4,15 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E45C406A-8A2E-40F9-8412-6C79FE84BF3E}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{06658543-EF00-443A-879A-AB805259F234}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Pipelines</RootNamespace>
-    <AssemblyName>Pipelines</AssemblyName>
+    <RootNamespace>Piplines2._0.Console</RootNamespace>
+    <AssemblyName>Piplines2.0.Console</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +23,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -39,15 +41,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Filter.cs" />
-    <Compile Include="Context.cs" />
-    <Compile Include="FilterInputExtension.cs" />
-    <Compile Include="IFilter.cs" />
-    <Compile Include="IPipe.cs" />
-    <Compile Include="IPipeline.cs" />
-    <Compile Include="Pipe.cs" />
-    <Compile Include="Pipeline.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegexReplaceFilter.cs" />
+    <Compile Include="RegexReplaceFilterInput.cs" />
+    <Compile Include="SendFilter.cs" />
+    <Compile Include="WriteLineAppendNameFilter.cs" />
+    <Compile Include="WriteLineFilter.cs" />
+    <Compile Include="WriteLineInput.cs" />
+    <Compile Include="WritePipelineContract.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PipesAndFilters\PipesAndFilters.csproj">
+      <Project>{3c4ddf21-b561-43cb-9adf-06df71c285a9}</Project>
+      <Name>PipesAndFilters</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
