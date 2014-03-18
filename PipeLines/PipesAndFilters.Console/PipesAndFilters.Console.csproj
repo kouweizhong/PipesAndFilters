@@ -7,8 +7,8 @@
     <ProjectGuid>{06658543-EF00-443A-879A-AB805259F234}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Piplines2._0.Console</RootNamespace>
-    <AssemblyName>Piplines2.0.Console</AssemblyName>
+    <RootNamespace>PipesAndFilters.Console</RootNamespace>
+    <AssemblyName>PipesAndFilters.Console</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

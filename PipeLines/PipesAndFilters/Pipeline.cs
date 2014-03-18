@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Pipelines
+namespace PipesAndFilters
 {
     public class Pipeline<T> : IPipeline<T> where T : IPipelineContract
     {

@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Threading;
-using Pipelines;
 
-namespace Piplines2._0.Console
+namespace PipesAndFilters.Console
 {
 	public class SendFilter : Filter<WritePipelineContract>
 	{

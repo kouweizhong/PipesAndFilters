@@ -1,4 +1,4 @@
-﻿namespace Pipelines
+﻿namespace PipesAndFilters.Console
 {
     public class RegexReplaceFilterInput
     {

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Concurrent;
 
-namespace Pipelines
+namespace PipesAndFilters
 {
 	public class Pipe<T> : IPipe<T> where T : IPipelineContract
 	{

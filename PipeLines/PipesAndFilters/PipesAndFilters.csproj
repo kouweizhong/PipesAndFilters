@@ -7,8 +7,8 @@
     <ProjectGuid>{3C4DDF21-B561-43CB-9ADF-06DF71C285A9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Pipelines</RootNamespace>
-    <AssemblyName>Pipelines</AssemblyName>
+    <RootNamespace>PipesAndFilters</RootNamespace>
+    <AssemblyName>PipesAndFilters</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

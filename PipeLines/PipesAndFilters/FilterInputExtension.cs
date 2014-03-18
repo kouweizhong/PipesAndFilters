@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Pipelines
+namespace PipesAndFilters
 {
     public static class FilterInputExtension
     {

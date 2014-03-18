@@ -1,4 +1,4 @@
-﻿namespace Pipelines
+﻿namespace PipesAndFilters
 {
 	public interface IPipeline<T> where T : IPipelineContract
 	{

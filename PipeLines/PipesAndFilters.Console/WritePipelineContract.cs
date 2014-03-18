@@ -1,6 +1,4 @@
-﻿using Pipelines;
-
-namespace Piplines2._0.Console
+﻿namespace PipesAndFilters.Console
 {
 	public class WritePipelineContract : IPipelineContract
 	{

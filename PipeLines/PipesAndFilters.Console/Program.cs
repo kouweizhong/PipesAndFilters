@@ -1,8 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Pipelines;
 
-namespace Piplines2._0.Console
+namespace PipesAndFilters.Console
 {
 	class Program
 	{
