@@ -6,9 +6,10 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Pipelines")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("This library provides a simple interface for creating a pipe and filter architecture. The behaviour between filters is " +
+                                 "similar to a producer consummer pattern and makes use of BlockingCollection to maximize concurrent execution of filters")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Paul Smelser")]
 [assembly: AssemblyProduct("Pipelines")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]

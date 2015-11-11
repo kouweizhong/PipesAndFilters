@@ -1,15 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pipelines.Console", "Pipelines.Console\Pipelines.Console.csproj", "{E41CEC9E-D9E0-4484-9C5E-58FE50E0DA76}"
-EndProject
-Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Pipelines.Model", "Pipelines.Model\Pipelines.Model.modelproj", "{63B84899-A6E8-4D6B-8307-D0C78DCCA7DE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pipelines", "Pipelines\Pipelines.csproj", "{E45C406A-8A2E-40F9-8412-6C79FE84BF3E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipesAndFilters", "PipesAndFilters\PipesAndFilters.csproj", "{3C4DDF21-B561-43CB-9ADF-06DF71C285A9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipesAndFilters.Console", "PipesAndFilters.Console\PipesAndFilters.Console.csproj", "{06658543-EF00-443A-879A-AB805259F234}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6402D0A3-495C-4EF7-A44F-4B8B64A91B41}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\.DS_Store = .nuget\.DS_Store
+		.nuget\NuGet.config = .nuget\NuGet.config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +29,6 @@ Global
 		{E41CEC9E-D9E0-4484-9C5E-58FE50E0DA76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E41CEC9E-D9E0-4484-9C5E-58FE50E0DA76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E41CEC9E-D9E0-4484-9C5E-58FE50E0DA76}.Release|Any CPU.Build.0 = Release|Any CPU
-		{63B84899-A6E8-4D6B-8307-D0C78DCCA7DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{63B84899-A6E8-4D6B-8307-D0C78DCCA7DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{63B84899-A6E8-4D6B-8307-D0C78DCCA7DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{63B84899-A6E8-4D6B-8307-D0C78DCCA7DE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E45C406A-8A2E-40F9-8412-6C79FE84BF3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E45C406A-8A2E-40F9-8412-6C79FE84BF3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E45C406A-8A2E-40F9-8412-6C79FE84BF3E}.Release|Any CPU.ActiveCfg = Release|Any CPU

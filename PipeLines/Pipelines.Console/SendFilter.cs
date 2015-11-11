@@ -13,8 +13,7 @@ namespace Pipelines
 
 		static string PhraseSource(object input)
 		{
-            Thread.Sleep(TimeSpan.FromMilliseconds(8));
-		    return string.Format("{0}-{1}", input, DateTime.UtcNow.ToString("O"));
+		    return $"{input}-{DateTime.UtcNow.ToString("O")}";
 		}
 	}
 }

@@ -19,14 +19,14 @@ namespace Pipelines
 
 		public static Pipeline StartNew(IFilter filter, IEnumerable<object> input, int bufferSize)
 		{
-			var enumerable = input as object[] ?? input.ToArray();
-			var input2 = new BlockingCollection<object>(enumerable.Count());
-			foreach (var o in enumerable)
+			var inputEnumerable = input as object[] ?? input.ToArray();
+			var nextStageInput = new BlockingCollection<object>(inputEnumerable.Count());
+			foreach (var inputElement in inputEnumerable)
 			{
-				input2.Add(o);
+				nextStageInput.Add(inputElement);
 			}
-			input2.CompleteAdding();
-			return new Pipeline(filter, input2, new BlockingCollection<object>(bufferSize));
+			nextStageInput.CompleteAdding();
+			return new Pipeline(filter, nextStageInput, new BlockingCollection<object>(bufferSize));
 		}
 
 		public Pipeline Then(IFilter filter, int bufferSize)
@@ -42,12 +42,12 @@ namespace Pipelines
 			var lastJob = Filters.Dequeue();
 			var factory = new TaskFactory(TaskCreationOptions.LongRunning, TaskContinuationOptions.None);
 
-			Pipe prevJob = lastJob;
+			var prevJob = lastJob;
 			stages[0] = factory.StartNew(() => prevJob.Filter.Run(Input, prevJob.Buffer));
 			for (var i = 1; i != taskCount; i++)
 			{
 				var job = Filters.Dequeue();
-				Pipe localPrevJob = lastJob;
+				var localPrevJob = lastJob;
 				stages[i] = factory.StartNew(() => job.Filter.Run(localPrevJob.Buffer, job.Buffer));
 				lastJob = job;
 			}

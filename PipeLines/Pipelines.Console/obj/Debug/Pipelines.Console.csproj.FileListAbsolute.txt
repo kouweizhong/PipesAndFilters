@@ -19,3 +19,10 @@ C:\Users\psmelser\Documents\GitHub\PipesAndFilters\PipeLines\Pipelines.Console\b
 C:\Users\psmelser\Documents\GitHub\PipesAndFilters\PipeLines\Pipelines.Console\bin\Debug\Pipelines.dll
 C:\Users\psmelser\Documents\GitHub\PipesAndFilters\PipeLines\Pipelines.Console\bin\Debug\Pipelines.pdb
 C:\Users\psmelser\Documents\GitHub\PipesAndFilters\PipeLines\Pipelines.Console\obj\Debug\Pipelines.Console.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\GitHubVisualStudio\PipesAndFilters\PipeLines\Pipelines.Console\obj\Debug\Pipelines.Console.exe
+\\Mac\Home\Documents\GitHubVisualStudio\PipesAndFilters\PipeLines\Pipelines.Console\obj\Debug\Pipelines.Console.pdb
+\\Mac\Home\Documents\GitHubVisualStudio\PipesAndFilters\PipeLines\Pipelines.Console\bin\Debug\Pipelines.Console.exe
+\\Mac\Home\Documents\GitHubVisualStudio\PipesAndFilters\PipeLines\Pipelines.Console\bin\Debug\Pipelines.Console.pdb
+\\Mac\Home\Documents\GitHubVisualStudio\PipesAndFilters\PipeLines\Pipelines.Console\bin\Debug\Pipelines.dll
+\\Mac\Home\Documents\GitHubVisualStudio\PipesAndFilters\PipeLines\Pipelines.Console\bin\Debug\Pipelines.pdb
+\\Mac\Home\Documents\GitHubVisualStudio\PipesAndFilters\PipeLines\Pipelines.Console\obj\Debug\Pipelines.Console.csprojResolveAssemblyReference.cache
